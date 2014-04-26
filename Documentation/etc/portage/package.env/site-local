@@ -6,3 +6,4 @@ net-fs/autofs			nosandbox.conf
 net-p2p/armory			local-distfiles.conf
 >=dev-lang/go-9999		local-distfiles.conf
 >=x11-drivers/xf86-video-vmware-9999	local-distfiles.conf
+>=net-p2p/nmcontrol-9999	local-distfiles.conf
