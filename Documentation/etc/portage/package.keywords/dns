@@ -1,0 +1,6 @@
+net-dns/bind-tools
+net-dns/djbdns
+net-dns/dnsmasq
+sys-apps/ucspi-tcp
+sys-process/daemontools
+virtual/daemontools
