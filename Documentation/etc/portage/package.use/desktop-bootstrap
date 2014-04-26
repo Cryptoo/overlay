@@ -1,0 +1,5 @@
+media-gfx/autotrace		-imagemagick
+media-gfx/pstoedit		-imagemagick
+media-libs/urt			-gif
+media-plugins/frei0r-plugins	-facedetect
+net-libs/libproxy		-webkit

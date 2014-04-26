@@ -1,0 +1,10 @@
+app-emulation/vmware-modules **
+app-emulation/vmware-player **
+app-emulation/vmware-tools **
+app-emulation/qemu
+sys-apps/usbutils
+net-misc/bridge-utils
+sys-apps/usermode-utilities
+net-firewall/iptables
+app-emulation/virt-manager
+sys-firmware/seabios

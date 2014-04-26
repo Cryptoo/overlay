@@ -1,0 +1,15 @@
+app-arch/snappy
+>=app-crypt/Open-Transactions-9999	**
+app-misc/moneychanger	**
+dev-libs/chaiscript
+dev-libs/crypto++
+dev-libs/leveldb
+dev-libs/msgpack
+dev-python/pygtksourceview
+dev-vcs/git
+net-im/bitmessage
+net-p2p/armory
+<net-p2p/armory-9999::local_repository **
+net-p2p/bitcoind
+<net-p2p/bitcoind-9999 **
+net-p2p/bitcoin-qt

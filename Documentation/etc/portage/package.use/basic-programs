@@ -1,0 +1,30 @@
+app-arch/libarchive	xattr
+app-arch/tar		xattr
+app-editors/nano	spell
+app-portage/layman	git bazaar cvs darcs mercurial subversion
+dev-java/icedtea-bin	-nsplugin
+dev-lang/python		sqlite
+dev-libs/glib		xattr
+dev-libs/libgcrypt	static-libs
+dev-libs/libgpg-error	static-libs
+dev-libs/openssl	rfc3779
+dev-libs/popt		static-libs
+dev-vcs/git		curl
+net-firewall/ipset	-modules
+net-fs/nfs-utils	nfsdcld nfsidmap
+net-misc/rsync		xattr
+sys-apps/coreutils	xattr
+sys-apps/shadow		xattr
+sys-apps/util-linux	static-libs
+sys-auth/consolekit	policykit
+sys-auth/pambase	consolekit
+sys-auth/polkit		-introspection
+sys-devel/gcc		mudflap fortran
+sys-fs/cryptsetup	gcrypt -kernel udev static-libs
+sys-fs/lvm2		-lvm1 -readline -thin udev static-libs
+sys-fs/udev		hwdb static-libs
+sys-kernel/dracut	device-mapper dracut_modules_crypt dracut_modules_lvm dracut_modules_mdraid
+sys-libs/e2fsprogs-libs	static-libs
+virtual/libgudev	static-libs
+virtual/libudev		static-libs
+virtual/udev		static-libs

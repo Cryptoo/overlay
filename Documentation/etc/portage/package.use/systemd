@@ -1,0 +1,4 @@
+sys-apps/openrc		-netifrc
+sys-apps/systemd	audit cryptsetup
+sys-apps/systemd-units	desktop server
+sys-auth/pambase	-consolekit

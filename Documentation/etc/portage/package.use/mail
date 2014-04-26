@@ -1,0 +1,3 @@
+mail-mta/postfix	dovecot-sasl sasl
+net-mail/dovecot	managesieve sdbox sieve
+net-mail/fetchmail	-socks

@@ -1,0 +1,4 @@
+@basic-programs
+app-admin/metalog
+app-emulation/spice-vdagent
+net-misc/socat

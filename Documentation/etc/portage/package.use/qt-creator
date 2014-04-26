@@ -1,0 +1,3 @@
+dev-qt/qt-creator	autotools cmake git
+dev-libs/botan		threads
+

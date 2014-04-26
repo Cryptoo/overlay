@@ -1,0 +1,6 @@
+dev-ruby/json
+dev-ruby/racc
+dev-ruby/rake
+dev-ruby/rdoc
+dev-ruby/rubygems
+virtual/rubygems

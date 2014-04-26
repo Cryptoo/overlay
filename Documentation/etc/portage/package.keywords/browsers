@@ -1,0 +1,10 @@
+app-accessibility/speech-dispatcher
+dev-lang/v8
+dev-libs/nspr
+dev-libs/nss
+dev-libs/protobuf
+media-libs/libvpx
+media-libs/libwebp
+www-client/chromium
+www-client/google-chrome
+www-plugins/google-talkplugin

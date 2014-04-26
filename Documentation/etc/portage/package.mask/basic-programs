@@ -1,0 +1,9 @@
+=sys-fs/udev-210
+=sys-fs/udev-211
+sys-kernel/gentoo-sources
+sys-kernel/hardened-sources
+sys-kernel/openvz-sources
+sys-kernel/tuxonice-sources
+sys-kernel/vanilla-sources
+sys-kernel/vserver-sources
+=x11-drivers/xf86-video-vmware-13.0.1

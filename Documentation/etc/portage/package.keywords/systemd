@@ -1,0 +1,11 @@
+net-misc/netifrc
+net-misc/ntp
+sys-apps/gentoo-systemd-integration
+sys-apps/hwids
+sys-apps/kmod
+sys-apps/openrc
+sys-apps/systemd
+sys-apps/systemd-units
+sys-fs/cryptsetup
+sys-process/vixie-cron
+virtual/udev

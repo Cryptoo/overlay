@@ -1,0 +1,15 @@
+@kde-minimal
+@browsers
+app-cdr/k3b
+app-text/calibre
+kde-base/konq-plugins
+media-gfx/gimp
+media-sound/amarok
+media-sound/picard
+media-sound/soundkonverter
+media-video/kaffeine
+media-video/kdenlive
+media-video/mplayer
+net-irc/konversation
+www-plugins/kpartsplugin
+media-video/vlc

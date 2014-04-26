@@ -1,0 +1,3 @@
+app-crypt/gcr			gtk
+app-crypt/Open-Transactions	java doc gnome-keyring go -kwallet python
+net-libs/zeromq			-pgm

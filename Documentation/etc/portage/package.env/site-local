@@ -1,0 +1,7 @@
+net-fs/autofs			nosandbox.conf
+>=net-irc/znc-9999		local-distfiles.conf
+>=net-p2p/bitcoind-9999		local-distfiles.conf
+>=net-p2p/bitcoin-qt-9999	local-distfiles.conf
+>=net-p2p/pybitmessage-9999	local-distfiles.conf
+net-p2p/armory			local-distfiles.conf
+>=dev-lang/go-9999		local-distfiles.conf

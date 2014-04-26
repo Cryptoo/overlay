@@ -1,0 +1,3 @@
+net-firewall/ipset	-modules
+net-misc/tor		transparent-proxy web
+net-misc/openvpn	iproute2

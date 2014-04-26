@@ -1,0 +1,22 @@
+#!/sbin/runscript
+# Copyright 1999-2010 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+depend() {
+	need net
+}
+
+start() {
+	ebegin "Starting btcd"
+	PIDFILE=/run/btcd.pid
+	start-stop-daemon --start --background --make-pidfile --user bitcoin:bitcoin --pidfile "${PIDFILE}" --quiet --exec /usr/local/bin/btcd
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping btcd"
+	start-stop-daemon --stop --user bitcoin:bitcoin --pidfile "${PIDFILE}" --exec /usr/local/bin/btcd
+	eend $?
+}
+

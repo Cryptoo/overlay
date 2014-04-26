@@ -1,0 +1,3 @@
+#media-gfx/imagemagick	-autotrace corefonts djvu -jvu -fftw -fontconfig -fpx -graphviz -hdri jbig jpeg jpeg2k -lcms -lqr -lzma -opencl -openexr pango -perl png postscript -q32 -q64 -q8 -raw -static-libs svg tiff truetype webp wmf xml X
+media-gfx/imagemagick	png
+x11-libs/cairo		X

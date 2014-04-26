@@ -1,0 +1,2 @@
+app-crypt/pinentry	qt4
+mail-client/thunderbird	system-sqlite -gstreamer -jit -libnotify -lightning system-cairo system-icu system-jpeg

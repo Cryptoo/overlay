@@ -1,0 +1,26 @@
+# /etc/fstab: static file system information.
+#
+# noatime turns off atimes for increased performance (atimes normally aren't 
+# needed); notail increases performance of ReiserFS (at the expense of storage 
+# efficiency).  It's safe to drop the noatime options if you want and to 
+# switch between notail / tail freely.
+#
+# The root filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# See the manpage fstab(5) for more information.
+#
+
+# <fs>			<mountpoint>			<type>		<opts>							<dump/pass>
+
+/dev/vda		/				btrfs		noatime							0 1
+
+lithium:/bin		/usr/site-local/bin		nfs4		noatime,bg,intr,ro,nodev,nosuid,noatime			0 0
+lithium:/distfiles	/usr/site-local/distfiles	nfs4		noatime,bg,intr,rw,noexec,nodev,nosuid,noatime		0 0
+lithium:/layman		/var/lib/layman			nfs4		noatime,bg,intr,ro,noexec,nodev,nosuid,noatime		0 0
+lithium:/packages	/usr/site-local/packages	nfs4		noatime,bg,intr,rw,noexec,nodev,nosuid,noatime		0 0
+lithium:/portage	/usr/portage			nfs4		noatime,bg,intr,ro,noexec,nodev,nosuid,noatime		0 0
+lithium:/portage-local	/usr/site-local/portage		nfs4		noatime,bg,intr,rw,noexec,nodev,nosuid,noatime		0 0
+lithium:/src		/usr/site-local/src		nfs4		noatime,bg,intr,ro,noexec,nodev,nosuid,noatime		0 0
+
+system-tmp		/tmp				tmpfs		size=256M,nosuid,nodev,noatime				0 0
