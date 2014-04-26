@@ -19,7 +19,7 @@ KEYWORDS="~x86 ~amd64"
 IUSE="doc"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-DEPEND="${PYTHON_DEPS} net-p2p/namecoind"
+DEPEND="${PYTHON_DEPS} net-dns/namecoind"
 RDEPEND="${DEPEND}"
 
 src_compile() { :; }
