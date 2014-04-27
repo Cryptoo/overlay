@@ -1,4 +1,5 @@
-@basic-programs
 app-admin/metalog
 app-emulation/spice-vdagent
+@basic-programs
 net-misc/socat
+sys-power/acpid

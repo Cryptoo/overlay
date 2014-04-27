@@ -15,4 +15,5 @@ sys-fs/cryptsetup
 sys-fs/mdadm
 sys-kernel/dracut
 sys-kernel/linux-firmware
+sys-power/acpid
 sys-process/iotop

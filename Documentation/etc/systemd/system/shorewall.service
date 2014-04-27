@@ -1,0 +1,12 @@
+[Unit]
+Description=Load firewall
+Before=systemd-networkd.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=1
+ExecStart=/sbin/shorewall restart
+
+[Install]
+WantedBy=systemd-networkd.service
+

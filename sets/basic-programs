@@ -1,4 +1,3 @@
-#net-firewall/shorewall6
 app-admin/sudo
 app-crypt/gnupg
 app-editors/nano
@@ -7,6 +6,7 @@ app-portage/eix
 app-portage/gentoolkit
 net-firewall/ipset
 net-firewall/shorewall
+#net-firewall/shorewall6
 net-misc/cfengine
 net-misc/dhcpcd
 net-misc/ntp
@@ -16,7 +16,6 @@ sys-apps/rng-tools
 sys-auth/nss-mdns
 sys-fs/btrfs-progs
 sys-libs/gpm
-sys-power/acpid
 sys-process/latencytop
 sys-process/lsof
 sys-process/vixie-cron
