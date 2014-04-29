@@ -9,12 +9,20 @@ net-misc/cfengine
 net-misc/netifrc
 net-misc/ntp
 net-nds/rpcbind
+sys-apps/dbus
 sys-apps/elfix
+sys-apps/gentoo-systemd-integration
 sys-apps/hwids
 sys-apps/keyutils
 sys-apps/kmod
 sys-apps/openrc
 <sys-apps/portage-9999 **
+sys-apps/systemd
+sys-apps/systemd-units
+sys-apps/sysvinit
+sys-apps/util-linux
+sys-auth/pambase
+sys-auth/polkit
 sys-boot/grub
 sys-devel/crossdev
 sys-devel/gcc

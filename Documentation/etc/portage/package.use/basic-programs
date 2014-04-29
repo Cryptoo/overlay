@@ -15,16 +15,17 @@ net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
+sys-apps/systemd	audit policykit gudev cryptsetup 
+sys-apps/systemd-units	desktop server
 sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit
-sys-auth/pambase	consolekit
 sys-auth/polkit		-introspection
 sys-devel/gcc		mudflap fortran
-sys-fs/cryptsetup	gcrypt -kernel udev static-libs
-sys-fs/lvm2		-lvm1 -readline -thin udev static-libs
+sys-fs/cryptsetup	gcrypt -kernel -udev static-libs
+sys-fs/lvm2		-lvm1 -readline -thin -udev static-libs
 sys-fs/udev		hwdb static-libs
-sys-kernel/dracut	device-mapper dracut_modules_crypt dracut_modules_lvm dracut_modules_mdraid
+sys-kernel/dracut	systemd
 sys-libs/e2fsprogs-libs	static-libs
-virtual/libgudev	static-libs
-virtual/libudev		static-libs
-virtual/udev		static-libs
+virtual/libgudev	-static-libs
+virtual/libudev		-static-libs
+virtual/udev		-static-libs gudev
