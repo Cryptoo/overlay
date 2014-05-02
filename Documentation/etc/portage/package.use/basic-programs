@@ -15,7 +15,7 @@ net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
-sys-apps/systemd	audit policykit gudev cryptsetup 
+sys-apps/systemd	audit policykit gudev
 sys-apps/systemd-units	desktop server
 sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit
