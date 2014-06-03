@@ -1,3 +1,5 @@
+app-misc/geoclue		-networkmanager -modemmanager
+app-office/calligra		-semantic-desktop
 app-text/poppler		qt4
 dev-python/PyQt4		declarative sql script
 dev-python/PyQt4		webkit X svg kde phonon
@@ -23,6 +25,7 @@ dev-qt/qttest			qt3support
 dev-qt/qtwebkit			qt3support
 dev-qt/qtxmlpatterns		qt3support
 kde-base/kdelibs		opengl semantic-desktop
+kde-base/kget			bittorrent
 kde-base/kwin			opengl
 media-gfx/exiv2			xmp
 media-gfx/imagemagick		jpeg png

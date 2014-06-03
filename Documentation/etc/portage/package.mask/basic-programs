@@ -1,3 +1,4 @@
+net-misc/networkmanager
 =sys-fs/udev-210
 =sys-fs/udev-211
 sys-kernel/gentoo-sources
