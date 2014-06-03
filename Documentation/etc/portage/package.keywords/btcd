@@ -10,13 +10,13 @@ dev-go/btcws
 dev-go/crypto
 dev-go/fastsha256
 dev-go/go-flags
+dev-go/goleveldb
 dev-go/go-socks
 dev-go/go-spew
 dev-go/go-sqlite3
-dev-go/goleveldb
 dev-go/net
 dev-go/seelog
 dev-go/snappy-go
 dev-go/text
-dev-lang/go	**
+dev-lang/go
 net-p2p/btcd
