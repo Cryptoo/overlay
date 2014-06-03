@@ -23,7 +23,6 @@ dev-qt/qttest			qt3support
 dev-qt/qtwebkit			qt3support
 dev-qt/qtxmlpatterns		qt3support
 kde-base/kdelibs		opengl semantic-desktop
-kde-base/kdm			-consolekit
 kde-base/kwin			opengl
 media-gfx/exiv2			xmp
 media-gfx/imagemagick		jpeg png

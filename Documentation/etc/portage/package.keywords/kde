@@ -2,7 +2,6 @@ app-office/libreoffice-bin
 app-text/calibre
 app-text/poppler
 dev-libs/boost
-# move dev-libs/libusbx dev-libs/libusb
 dev-libs/libusb
 dev-qt/assistant
 dev-qt/designer
@@ -38,6 +37,7 @@ dev-util/kdevplatform
 kde-base/kde-base-artwork
 kde-base/kde-wallpapers
 kde-base/kwalletmanager
+kde-misc/baloo-kcmadv
 kde-misc/kio-mtp
 media-libs/lcms
 media-libs/libpng
