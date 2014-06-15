@@ -26,7 +26,9 @@ x11-libs/libxcb
 x11-libs/libxshmfence
 x11-libs/xtrans
 x11-proto/dri3proto
+x11-proto/fontsproto
 x11-proto/glproto
 x11-proto/presentproto
 x11-proto/xcb-proto
 x11-proto/xextproto
+x11-proto/xproto
