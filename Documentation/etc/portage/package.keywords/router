@@ -1,12 +1,9 @@
+net-dialup/ppp
 net-dns/noip-updater
 net-dns/totd
 net-firewall/ip6tables
 net-firewall/ipset
 net-firewall/iptables
-net-firewall/shorewall
-net-firewall/shorewall6
-net-firewall/shorewall-core
 net-misc/aiccu
 net-misc/dhcpv6
 net-misc/openvpn
-net-dialup/ppp

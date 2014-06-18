@@ -4,6 +4,9 @@ dev-libs/glib
 dev-libs/openssl
 dev-python/pypax
 dev-vcs/git
+net-firewall/shorewall
+net-firewall/shorewall6
+net-firewall/shorewall-core
 net-fs/nfs-utils
 net-libs/libnfsidmap
 net-libs/libtirpc
