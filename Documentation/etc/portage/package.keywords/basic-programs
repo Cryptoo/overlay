@@ -1,5 +1,6 @@
 app-emulation/spice-vdagent
 app-portage/eix
+dev-libs/glib
 dev-libs/openssl
 dev-python/pypax
 net-fs/nfs-utils

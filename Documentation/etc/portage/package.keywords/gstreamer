@@ -27,6 +27,7 @@ media-plugins/gst-plugins-jack
 media-plugins/gst-plugins-jpeg
 media-plugins/gst-plugins-ladspa
 media-plugins/gst-plugins-lame
+media-plugins/gst-plugins-libav
 media-plugins/gst-plugins-libmms
 media-plugins/gst-plugins-libpng
 media-plugins/gst-plugins-libvisual
@@ -42,6 +43,7 @@ media-plugins/gst-plugins-mythtv
 media-plugins/gst-plugins-neon
 media-plugins/gst-plugins-ofa
 media-plugins/gst-plugins-ogg
+media-plugins/gst-plugins-opus
 media-plugins/gst-plugins-oss
 media-plugins/gst-plugins-pango
 media-plugins/gst-plugins-pulse
@@ -64,3 +66,4 @@ media-plugins/gst-plugins-x264
 media-plugins/gst-plugins-ximagesrc
 media-plugins/gst-plugins-xvid
 media-plugins/gst-plugins-xvideo
+virtual/ffmpeg

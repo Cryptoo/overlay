@@ -8,3 +8,4 @@ media-libs/libwebp
 www-client/chromium
 www-client/google-chrome
 www-plugins/google-talkplugin
+x11-libs/cairo
