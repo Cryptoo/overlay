@@ -49,5 +49,6 @@ x11-libs/libdrm				libkms
 x11-libs/libva-intel-driver		X
 x11-libs/libva				X
 x11-libs/libXfont			truetype
+x11-misc/slim				branding
 x11-terms/xterm				truetype
 x11-wm/blackbox				truetype
