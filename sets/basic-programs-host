@@ -6,6 +6,7 @@ dev-vcs/git
 net-firewall/ebtables
 net-fs/nfs-utils
 net-misc/keychain
+net-misc/ntp
 sys-apps/dcfldd
 sys-apps/ethtool
 sys-apps/gptfdisk
