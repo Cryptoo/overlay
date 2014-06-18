@@ -17,7 +17,6 @@ sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
 sys-apps/systemd        -acl audit -introspection -filecaps gudev -policykit -xattr
 sys-apps/util-linux	static-libs
-sys-auth/consolekit	policykit
 sys-auth/pambase        mktemp systemd
 sys-devel/gcc		mudflap fortran
 sys-fs/cryptsetup	gcrypt -kernel -udev static-libs
