@@ -1,3 +1,4 @@
 net-firewall/ipset	-modules
-net-misc/tor		transparent-proxy web
+net-misc/aiccu		systemd
 net-misc/openvpn	iproute2
+net-misc/tor		transparent-proxy web
