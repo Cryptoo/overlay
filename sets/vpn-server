@@ -1,2 +1,3 @@
 net-firewall/ebtables
+net-misc/bridge-utils
 net-misc/openvpn
