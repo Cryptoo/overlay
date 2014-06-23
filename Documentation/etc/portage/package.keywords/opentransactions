@@ -1,0 +1,4 @@
+app-crypt/Open-Transactions
+>=app-crypt/Open-Transactions-9999      **
+app-misc/moneychanger   **
+dev-libs/chaiscript

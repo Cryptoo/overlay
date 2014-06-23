@@ -1,5 +1,3 @@
-app-crypt/Open-Transactions	-kwallet java
 dev-libs/leveldb	-snappy
-net-libs/zeromq		pgm
 net-p2p/bitcoind	i2p -wallet
 net-p2p/bitcoin-qt	i2p
