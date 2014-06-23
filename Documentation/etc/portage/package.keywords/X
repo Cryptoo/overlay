@@ -18,6 +18,7 @@ x11-drivers/xf86-input-evdev
 x11-drivers/xf86-video-intel
 x11-drivers/xf86-video-nouveau
 x11-drivers/xf86-video-qxl
+x11-drivers/xf86-video-vmware
 x11-libs/glamor
 x11-libs/libdrm
 x11-libs/libva
