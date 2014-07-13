@@ -4,6 +4,7 @@ dev-libs/gobject-introspection-common
 dev-libs/icu
 gnome-base/gconf
 media-fonts/takao-fonts
+media-libs/freetype
 media-libs/mesa
 media-libs/openjpeg
 net-im/jitsi
