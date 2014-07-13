@@ -1,11 +1,15 @@
 app-arch/snappy
 dev-libs/crypto++
 dev-libs/leveldb
+dev-libs/libsodium
 dev-libs/msgpack
 dev-python/pygtksourceview
 dev-vcs/git
 net-im/bitmessage
+net-libs/cppzmq
 net-p2p/armory **
 net-p2p/bitcoind
 <net-p2p/bitcoind-9999 **
 net-p2p/bitcoin-qt
+net-p2p/libbitcoin **
+net-p2p/obelisk **
