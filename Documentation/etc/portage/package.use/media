@@ -1,3 +1,4 @@
 app-text/poppler	cairo
 media-libs/harfbuzz	icu -introspection
 media-libs/mlt		kdenlive
+net-misc/youtube-dl	offensive

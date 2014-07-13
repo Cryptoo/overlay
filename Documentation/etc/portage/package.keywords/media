@@ -3,6 +3,7 @@ media-gfx/graphite2
 media-libs/a52dec
 media-libs/gnonlin
 media-libs/harfbuzz
+media-libs/jasper
 media-libs/libsdl
 media-libs/libtheora
 media-libs/mlt
