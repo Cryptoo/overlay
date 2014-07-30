@@ -1,0 +1,7 @@
+app-admin/eselect-java
+dev-java/icedtea-bin
+dev-java/java-config
+dev-java/java-config-wrapper
+sys-apps/baselayout-java
+virtual/jdk
+virtual/jre
