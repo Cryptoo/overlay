@@ -25,6 +25,6 @@ sys-fs/udev		hwdb static-libs
 sys-kernel/dracut	systemd
 sys-libs/e2fsprogs-libs	static-libs
 sys-libs/pam            audit
-virtual/libgudev	-static-libs
-virtual/libudev		-static-libs
-virtual/udev		-static-libs gudev
+virtual/libgudev	-static-libs systemd
+virtual/libudev		-static-libs systemd
+virtual/udev		-static-libs gudev systemd
