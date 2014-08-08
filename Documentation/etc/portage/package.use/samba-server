@@ -1,1 +1,1 @@
-net-fs/samba	-client fam server -smbclient smbsharemodes syslog -winbind
+net-fs/samba	-avahi client fam server -smbclient smbsharemodes syslog -winbind
