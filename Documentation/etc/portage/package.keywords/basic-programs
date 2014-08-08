@@ -17,6 +17,7 @@ net-nds/rpcbind
 sys-apps/elfix
 sys-apps/gentoo-systemd-integration
 sys-apps/hwids
+sys-apps/install-xattr
 sys-apps/keyutils
 sys-apps/kmod
 sys-apps/openrc

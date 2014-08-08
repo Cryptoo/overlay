@@ -14,6 +14,7 @@ net-firewall/ipset	-modules
 net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
+sys-apps/dbus		systemd
 sys-apps/shadow		xattr
 sys-apps/systemd        -acl audit -introspection -filecaps gudev -policykit -xattr
 sys-apps/util-linux	static-libs
