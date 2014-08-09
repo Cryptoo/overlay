@@ -1,5 +1,3 @@
-@pulseaudio
-@xorg-minimal
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/bitstream-cyberbit
@@ -16,4 +14,7 @@ media-fonts/terminus-font
 media-fonts/unifont
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
+media-gfx/feh
 net-print/cups
+@pulseaudio
+@xorg-minimal
