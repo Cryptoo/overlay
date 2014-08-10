@@ -2,6 +2,8 @@ app-admin/eselect-java
 dev-java/icedtea-bin
 dev-java/java-config
 dev-java/java-config-wrapper
+dev-java/oracle-jdk-bin
+dev-java/sun-jdk
 dev-java/swt
 net-p2p/vuze
 net-p2p/vuze-coreplugins
