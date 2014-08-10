@@ -1,3 +1,0 @@
-dev-libs/boost		python
-net-libs/rb_libtorrent	python
-net-p2p/deluge		geoip gtk setproctitle -sound webinterface
