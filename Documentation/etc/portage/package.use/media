@@ -1,4 +1,5 @@
 app-text/poppler	cairo
 media-libs/harfbuzz	icu -introspection
 media-libs/mlt		kdenlive
+media-libs/sdl-mixer	mod timidity
 net-misc/youtube-dl	offensive
