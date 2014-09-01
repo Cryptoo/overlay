@@ -19,6 +19,7 @@ net-libs/gtk-vnc
 net-misc/bridge-utils
 net-misc/spice-gtk
 sys-apps/dtc
+sys-apps/texinfo
 sys-apps/usbutils
 sys-apps/usermode-utilities
 sys-firmware/ipxe

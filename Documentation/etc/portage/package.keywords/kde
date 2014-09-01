@@ -43,6 +43,9 @@ kde-misc/kio-mtp
 media-libs/lcms
 media-libs/libpng
 media-libs/libraw
+media-libs/phonon
+media-libs/phonon-gstreamer
+media-libs/phonon-vlc
 media-libs/tiff
 net-libs/webkit-gtk
 perl-core/ExtUtils-Manifest

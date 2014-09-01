@@ -35,6 +35,7 @@ sys-fs/mdadm
 sys-fs/udev-init-scripts
 sys-kernel/dracut
 sys-kernel/linux-firmware
+sys-process/procps
 sys-process/vixie-cron
 virtual/libgudev
 virtual/libudev
