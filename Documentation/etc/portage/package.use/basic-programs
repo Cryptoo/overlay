@@ -7,7 +7,7 @@ dev-lang/python		sqlite
 dev-libs/glib		xattr
 dev-libs/libgcrypt	static-libs
 dev-libs/libgpg-error	static-libs
-dev-libs/openssl	rfc3779
+dev-libs/openssl	rfc3779 -tls-heartbeat
 dev-libs/popt		static-libs
 dev-vcs/git		curl
 net-dns/avahi		dbus
