@@ -13,6 +13,7 @@ sys-apps/mlocate
 sys-apps/rng-tools
 sys-auth/nss-mdns
 sys-fs/btrfs-progs
+sys-fs/udev-init-scripts
 sys-libs/gpm
 sys-process/latencytop
 sys-process/lsof
