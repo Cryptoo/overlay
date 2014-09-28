@@ -1,9 +1,11 @@
+app-admin/eselect-sh
 app-admin/sudo
 app-crypt/gnupg
 app-editors/nano
 app-misc/screen
 app-portage/eix
 app-portage/gentoolkit
+app-shells/dash
 net-firewall/ipset
 net-firewall/shorewall
 #net-firewall/shorewall6
