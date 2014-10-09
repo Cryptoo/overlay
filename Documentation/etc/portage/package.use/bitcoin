@@ -1,3 +1,3 @@
 dev-libs/leveldb	-snappy
-net-p2p/bitcoind	i2p -wallet
-net-p2p/bitcoin-qt	i2p
+net-p2p/bitcoind	i2p -wallet -ljr
+net-p2p/bitcoin-qt	i2p -ljr
