@@ -4,6 +4,7 @@ dev-libs/glib
 dev-libs/openssl
 dev-python/pypax
 dev-vcs/git
+net-firewall/arptables
 net-firewall/shorewall
 net-firewall/shorewall6
 net-firewall/shorewall-core
