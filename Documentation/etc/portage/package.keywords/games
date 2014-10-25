@@ -1,6 +1,8 @@
+dev-games/higan-ananke
 games-emulation/bsnes
 games-emulation/desmume
 games-emulation/fakenes
+games-emulation/higan
 games-emulation/mednafen
 games-emulation/nestopia
 games-emulation/nestra
@@ -13,8 +15,8 @@ games-fps/kmquake2-shanmaps
 games-fps/quake2-demodata
 games-fps/quake2-icculus
 games-fps/quake2-textures
-games-util/snespurify
-=sys-devel/gcc-4.6.3
 games-strategy/spring
+games-util/snespurify
 games-util/springlobby
+=sys-devel/gcc-4.6.3
 x11-libs/pangox-compat

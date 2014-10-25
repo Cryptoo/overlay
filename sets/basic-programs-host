@@ -3,6 +3,7 @@ app-arch/rar
 app-arch/unrar
 @basic-programs
 dev-vcs/git
+net-firewall/arptables
 net-firewall/ebtables
 net-fs/nfs-utils
 net-misc/keychain
