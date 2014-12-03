@@ -12,6 +12,7 @@ dev-libs/popt		static-libs
 dev-vcs/git		curl
 net-dns/avahi		dbus
 net-firewall/ipset	-modules
+net-firewall/iptables	netlink
 net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr

@@ -1,6 +1,7 @@
 app-emulation/spice-vdagent
 app-portage/eix
 dev-libs/glib
+dev-libs/libtasn1
 dev-libs/openssl
 dev-python/pypax
 dev-vcs/git
@@ -36,6 +37,7 @@ sys-fs/mdadm
 sys-fs/udev-init-scripts
 sys-kernel/dracut
 sys-kernel/linux-firmware
+sys-kernel/linux-headers
 sys-process/procps
 sys-process/vixie-cron
 virtual/libgudev

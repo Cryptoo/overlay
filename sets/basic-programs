@@ -8,8 +8,9 @@ app-portage/gentoolkit
 app-shells/dash
 net-firewall/ipset
 net-firewall/shorewall
-#net-firewall/shorewall6
+net-firewall/shorewall6
 net-misc/cfengine
+net-misc/dhcpcd
 sys-apps/iproute2
 sys-apps/mlocate
 sys-apps/rng-tools
