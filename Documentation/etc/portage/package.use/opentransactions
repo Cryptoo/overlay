@@ -1,3 +1,4 @@
 app-crypt/gcr			gtk
 app-crypt/Open-Transactions	java doc -gnome-keyring go -kwallet python
+app-crypt/opentxs		-kde flat
 net-libs/zeromq			-pgm

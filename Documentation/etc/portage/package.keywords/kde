@@ -2,6 +2,7 @@ app-misc/geoclue
 app-office/libreoffice-bin
 app-text/calibre
 app-text/poppler
+dev-db/mysql
 dev-libs/boost
 dev-libs/libusb
 dev-qt/assistant
@@ -11,6 +12,7 @@ dev-qt/pixeltool
 dev-qt/qdbusviewer
 dev-qt/qt3support
 dev-qt/qtbearer
+dev-qt/qtchooser
 dev-qt/qtcore
 dev-qt/qt-creator
 dev-qt/qtdbus
@@ -30,6 +32,7 @@ dev-qt/qtsingleapplication
 dev-qt/qtsql
 dev-qt/qtsvg
 dev-qt/qttest
+dev-qt/qttranslations
 dev-qt/qtwebkit
 dev-qt/qtxmlpatterns
 dev-util/boost-build
@@ -50,3 +53,4 @@ media-libs/tiff
 net-libs/webkit-gtk
 perl-core/ExtUtils-Manifest
 sys-libs/zlib
+virtual/mysql

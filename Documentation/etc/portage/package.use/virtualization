@@ -12,6 +12,7 @@ media-libs/libsdl		X opengl xv
 net-libs/gtk-vnc		python sasl gtk3 introspection
 net-misc/cfengine		examples html libvirt
 net-misc/spice-gtk		python sasl gtk3 -gstreamer introspection
+net-misc/spice-gtk		usbredir
 sys-auth/polkit			introspection
 sys-libs/zlib			static-libs
 x11-libs/cairo			opengl xcb  X
