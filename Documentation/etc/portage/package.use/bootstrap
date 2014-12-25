@@ -1,2 +1,3 @@
 sys-apps/util-linux	-udev
+sys-devel/gettext	-acl
 sys-libs/ncurses	-gpm
