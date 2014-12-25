@@ -2,7 +2,7 @@ app-emulation/spice-vdagent
 app-portage/eix
 dev-libs/glib
 dev-libs/libtasn1
-dev-libs/openssl
+dev-libs/openssl	**
 dev-python/pypax
 dev-vcs/git
 net-firewall/arptables
