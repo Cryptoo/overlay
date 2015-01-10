@@ -1,4 +1,4 @@
-dev-java/icedtea-bin	-X -alsa -cups -nsplugin
-dev-java/icedtea	-X -alsa -cups -nsplugin -webstart
-dev-java/oracle-jdk-bin -X jce
+dev-java/icedtea-bin	X -alsa -cups -nsplugin
+dev-java/icedtea	X -alsa -cups -nsplugin -webstart
+dev-java/oracle-jdk-bin X jce
 net-p2p/i2p		initscript
