@@ -1,3 +1,4 @@
 dev-libs/leveldb	-snappy
+dev-libs/libsecp256k1	asm
 net-p2p/bitcoind	i2p -wallet -bitcoin_policy_spamfilter
 net-p2p/bitcoin-qt	i2p

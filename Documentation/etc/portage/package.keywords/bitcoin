@@ -2,9 +2,9 @@ app-arch/snappy
 dev-libs/boost
 dev-libs/crypto++
 dev-libs/leveldb
+dev-libs/libsecp256k1 **
 dev-libs/libsodium
 dev-libs/msgpack
-dev-libs/secp256k1 **
 dev-python/pygtksourceview
 dev-util/boost-build
 dev-vcs/git
