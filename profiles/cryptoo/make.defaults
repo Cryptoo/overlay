@@ -1,7 +1,7 @@
 USE="gpm udev usb -xattr ipv6 -bindist -upnp systemd -consolekit"
 
 MAKEOPTS="-j2 -l1.6"
-FEATURES="-distcc -userfetch -xattr"
+FEATURES="-distcc -xattr"
 EMERGE_DEFAULT_OPTS="--ask --jobs --load-average 1.0 --keep-going --buildpkg --usepkg --binpkg-respect-use=y"
 PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 LINGUAS="en en_US en_UTF8"
