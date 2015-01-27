@@ -1,5 +1,0 @@
-sys-apps/systemd	audit policykit
-sys-apps/systemd-units	desktop server
-sys-auth/pambase	-consolekit
-virtual/libudev		-static-libs
-virtual/udev		-static-libs

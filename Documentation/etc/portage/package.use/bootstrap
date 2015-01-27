@@ -1,6 +1,0 @@
-dev-libs/elfutils	-nls
-sys-apps/attr		-nls
-sys-apps/diffutils	-nls
-sys-apps/util-linux	-udev
-sys-devel/gettext	-acl
-sys-libs/ncurses	-gpm
