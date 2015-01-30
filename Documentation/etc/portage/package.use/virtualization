@@ -1,23 +1,3 @@
-app-emulation/libvirt-glib	introspection -vala python
 app-emulation/libvirt		python sasl lvm qemu -virt-network pcap netcf -macvtap -vepa python_single_target_python2_7
-app-emulation/qemu		python vde virtfs sasl spice opengl sdl xattr usbredir
-app-emulation/virt-manager	sasl vnc gtk
-app-emulation/virt-viewer	sasl
-dev-games/cegui			opengl
-dev-libs/atk			introspection
-dev-libs/glib			static-libs
-dev-libs/libxml2		python
-dev-python/pycairo		xcb
-media-libs/libsdl		X opengl xv
-net-libs/gtk-vnc		python sasl gtk3 introspection
-net-misc/cfengine		examples html libvirt
-net-misc/spice-gtk		python sasl gtk3 -gstreamer introspection
-net-misc/spice-gtk		usbredir
-sys-auth/polkit			introspection
-sys-libs/zlib			static-libs
-x11-libs/cairo			opengl xcb  X
-x11-libs/gdk-pixbuf		introspection
-x11-libs/gdk-pixbuf		jpeg tiff 
-x11-libs/gtk+			introspection X
-x11-libs/pango			introspection
-x11-libs/vte			python glade introspection
+app-emulation/qemu		python vde virtfs sasl spice xattr usbredir
+net-misc/cfengine		libvirt
