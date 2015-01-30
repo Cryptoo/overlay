@@ -1,4 +1,4 @@
-USE="gpm udev usb -xattr ipv6 -bindist -upnp systemd -consolekit"
+USE="gpm udev usb -xattr ipv6 -bindist -upnp -systemd -consolekit"
 
 MAKEOPTS="-j2 -l1.6"
 FEATURES="-distcc -xattr"

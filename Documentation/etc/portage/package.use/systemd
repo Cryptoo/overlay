@@ -1,0 +1,6 @@
+sys-apps/dbus		systemd
+sys-auth/pambase	systemd
+sys-kernel/dracut	systemd
+virtual/libgudev        systemd
+virtual/libudev         systemd
+virtual/udev            systemd
