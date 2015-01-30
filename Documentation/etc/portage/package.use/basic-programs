@@ -3,7 +3,6 @@ app-arch/tar		xattr
 app-crypt/gnupg		-usb tools
 app-editors/nano	spell
 app-portage/layman	git bazaar cvs darcs mercurial subversion
-dev-java/icedtea-bin	-nsplugin
 dev-lang/python		sqlite
 dev-libs/glib		xattr
 dev-libs/libgcrypt	static-libs
@@ -18,9 +17,9 @@ net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/cfengine	examples
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
+sys-apps/dbus		systemd
 sys-apps/shadow		xattr
-sys-apps/systemd        -acl audit -introspection -filecaps gudev -policykit -xattr
-sys-apps/systemd-units	server
+sys-apps/systemd        -acl audit -filecaps gudev -introspection -policykit -sysv-utils -xattr
 sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit
 sys-auth/pambase        mktemp consolekit
@@ -29,7 +28,6 @@ sys-fs/cryptsetup	gcrypt -kernel -udev static-libs
 sys-fs/lvm2		-lvm1 -readline -thin -udev static-libs
 sys-fs/udev		hwdb static-libs
 sys-libs/e2fsprogs-libs	static-libs
-sys-libs/pam            audit
 virtual/libgudev	-static-libs
 virtual/libudev		-static-libs
 virtual/udev		-static-libs gudev
