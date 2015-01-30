@@ -17,7 +17,7 @@ DISTDIR=/usr/site-local/distfiles
 PKGDIR=/usr/site-local/portage/package.${ARCH}
 
 CONFIG_PROTECT="/usr/share/config/kdm/ /usr/share/X11/app-defaults"
-CONFIG_PROTECT_MASK="/etc/xdg /usr/share/config /etc/portage/savedconfig /etc/init.d /etc/fonts /etc/X11/Sessions /etc/pulse/ /etc/UPower /etc/logrotate.d /etc/dbus-1 /etc/ssl /etc/polkit-1 /etc/ImageMagick /etc/OpenCL /etc/NetworkManager /etc/lvm /etc/profile.d/java-config-2.sh"
+CONFIG_PROTECT_MASK="/etc/bash /etc/xdg /usr/share/config /etc/portage/savedconfig /etc/init.d /etc/fonts /etc/X11/Sessions /etc/pulse/ /etc/UPower /etc/logrotate.d /etc/dbus-1 /etc/ssl /etc/polkit-1 /etc/ImageMagick /etc/OpenCL /etc/NetworkManager /etc/lvm /etc/profile.d/java-config-2.sh"
 
 INPUT_DEVICES="evdev"
 VIDEO_CARDS="modesetting"
