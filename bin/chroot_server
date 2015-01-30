@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Use this to run commands inside the server images chroot.
+
+chroot /var/images/server $@
