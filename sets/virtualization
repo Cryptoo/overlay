@@ -1,6 +1,4 @@
-app-emulation/qemu
-#app-emulation/qemu-user
-app-emulation/virt-manager
+app-emulation/libvirt
 net-firewall/iptables
 net-misc/bridge-utils
 sys-apps/usbutils
