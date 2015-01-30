@@ -15,6 +15,7 @@ net-dns/avahi		dbus
 net-firewall/ipset	-modules
 net-firewall/iptables	netlink
 net-fs/nfs-utils	nfsdcld nfsidmap
+net-misc/cfengine	examples
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
