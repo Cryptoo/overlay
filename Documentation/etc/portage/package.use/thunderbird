@@ -1,2 +1,3 @@
 app-crypt/pinentry	qt4
+kde-base/kdepim-runtime	facebook google
 mail-client/thunderbird	system-sqlite -gstreamer -jit -libnotify -lightning system-cairo system-icu system-jpeg
