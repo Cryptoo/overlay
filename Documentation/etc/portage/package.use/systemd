@@ -1,5 +1,7 @@
-sys-apps/systemd	audit policykit
-sys-apps/systemd-units	desktop server
-sys-auth/pambase	-consolekit
-virtual/libudev		-static-libs
-virtual/udev		-static-libs
+sys-apps/dbus           systemd
+sys-auth/pambase        systemd
+sys-fs/lvm2             systemd
+sys-kernel/dracut       systemd
+virtual/libgudev        systemd
+virtual/libudev         systemd
+virtual/udev            systemd

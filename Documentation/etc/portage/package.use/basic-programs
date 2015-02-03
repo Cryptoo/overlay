@@ -1,5 +1,6 @@
 app-arch/libarchive	xattr
 app-arch/tar		xattr
+app-crypt/gnupg		-usb tools
 app-editors/nano	spell
 app-portage/layman	git bazaar cvs darcs mercurial subversion
 dev-java/icedtea-bin	-nsplugin
@@ -16,19 +17,17 @@ net-firewall/iptables	netlink
 net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
-sys-apps/dbus		systemd
 sys-apps/shadow		xattr
 sys-apps/systemd        -acl audit -introspection -filecaps gudev -policykit -xattr
 sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit
-sys-auth/pambase        mktemp systemd
+sys-auth/pambase        mktemp
 sys-devel/gcc		mudflap fortran
-sys-fs/cryptsetup	gcrypt -kernel -udev static-libs
-sys-fs/lvm2		-lvm1 -readline -thin -udev static-libs
+sys-fs/cryptsetup	gcrypt -kernel static-libs
+sys-fs/lvm2		-lvm1 -readline -thin static-libs
 sys-fs/udev		hwdb static-libs
-sys-kernel/dracut	systemd
 sys-libs/e2fsprogs-libs	static-libs
 sys-libs/pam            audit
-virtual/libgudev	-static-libs systemd
-virtual/libudev		-static-libs systemd
-virtual/udev		-static-libs gudev systemd
+virtual/libgudev	-static-libs
+virtual/libudev		-static-libs
+virtual/udev		-static-libs gudev
