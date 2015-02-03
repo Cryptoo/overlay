@@ -1,7 +1,11 @@
+app-crypt/gnupg
 app-emulation/spice-vdagent
 app-portage/eix
 dev-libs/glib
+dev-libs/libgcrypt
+dev-libs/libgpg-error
 dev-libs/libtasn1
+dev-libs/npth
 dev-libs/openssl	**
 dev-python/pypax
 dev-vcs/git
