@@ -30,7 +30,7 @@ kde-base/kwin			opengl
 media-gfx/exiv2			xmp
 media-gfx/imagemagick		jpeg png
 media-libs/gd			png
-media-libs/mlt			xml qt4 ffmpeg kde melt sdl
+media-libs/mlt			xml qt4 kde melt sdl
 media-plugins/gst-plugins-meta	ogg vorbis
 media-video/ffmpeg		sdl X
 media-video/vlc			dbus ogg vorbis
