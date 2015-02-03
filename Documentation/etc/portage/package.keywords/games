@@ -7,6 +7,7 @@ games-emulation/mednafen
 games-emulation/nestopia
 games-emulation/nestra
 games-emulation/pcsx2
+games-emulation/pcsxr
 games-emulation/snes9x
 games-emulation/zsnes
 games-fps/kmquake2

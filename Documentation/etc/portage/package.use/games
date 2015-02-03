@@ -1,1 +1,2 @@
 games-emulation/higan	profile_accuracy
+games-emulation/pcsxr	-alsa -openal -sdl cdio
