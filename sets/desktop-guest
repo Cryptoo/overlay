@@ -1,4 +1,5 @@
 app-emulation/spice
 @desktop
 x11-misc/slim
+x11-misc/stalonetray
 x11-wm/spectrwm
