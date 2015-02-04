@@ -18,7 +18,7 @@ net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
 sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
-sys-apps/systemd        -acl audit -introspection -filecaps gudev -policykit -xattr
+sys-apps/systemd        -acl -audit -introspection -filecaps gudev -policykit -xattr
 sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit
 sys-auth/pambase        mktemp
@@ -27,7 +27,7 @@ sys-fs/cryptsetup	gcrypt -kernel static-libs
 sys-fs/lvm2		-lvm1 -readline -thin static-libs
 sys-fs/udev		hwdb static-libs
 sys-libs/e2fsprogs-libs	static-libs
-sys-libs/pam            audit
+sys-libs/pam            -audit
 virtual/libgudev	-static-libs
 virtual/libudev		-static-libs
 virtual/udev		-static-libs gudev
