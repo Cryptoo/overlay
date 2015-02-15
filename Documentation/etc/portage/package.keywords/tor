@@ -1,3 +1,5 @@
 dev-libs/openssl	**
+dev-python/pyptlib
 net-misc/tor
+net-proxy/obfsproxy
 net-proxy/polipo
