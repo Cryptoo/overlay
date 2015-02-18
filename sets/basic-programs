@@ -7,9 +7,11 @@ app-portage/cpuinfo2cpuflags
 app-portage/eix
 app-portage/gentoolkit
 app-shells/dash
+dev-vcs/git
 net-firewall/ipset
 net-firewall/shorewall
 net-firewall/shorewall6
+net-fs/nfs-utils
 net-misc/cfengine
 net-misc/dhcpcd
 sys-apps/iproute2
@@ -19,7 +21,9 @@ sys-auth/nss-mdns
 sys-fs/btrfs-progs
 sys-fs/udev-init-scripts
 sys-libs/gpm
+sys-power/acpid
 sys-process/latencytop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/lynx
+
