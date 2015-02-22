@@ -1,3 +1,4 @@
 app-emulation/libvirt		python sasl lvm qemu -virt-network pcap netcf -macvtap -vepa python_single_target_python2_7
 app-emulation/qemu		python vde virtfs sasl spice xattr usbredir
+app-emulation/virt-manager	gtk sasl
 net-misc/cfengine		libvirt
