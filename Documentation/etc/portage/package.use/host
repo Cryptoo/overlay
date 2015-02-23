@@ -1,1 +1,2 @@
 sys-apps/systemd	cryptsetup
+net-misc/cfengine	libvirt
