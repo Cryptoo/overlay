@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This script set the correct permissions and xattrs on /etc/cryptoo
+# This script set the correct permissions and xattrs on /usr/cryptoo
 
 /bin/chmod -R ugo+rX /usr/cryptoo
 /bin/chmod -R go-w /usr/cryptoo
