@@ -6,12 +6,12 @@
 @dns
 @freenet
 @i2p
-@mail
+@mail_server
 @namecoin
 @router
 @samba
 @tor
-@vpn
-@vpn-server
+@vpn_client
+@vpn_server
 @znc
 
