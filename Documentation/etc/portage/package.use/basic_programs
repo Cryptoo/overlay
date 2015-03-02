@@ -24,7 +24,7 @@ sys-auth/consolekit	policykit
 sys-auth/pambase        mktemp
 sys-devel/gcc		mudflap fortran
 sys-fs/cryptsetup	gcrypt -kernel static-libs
-sys-fs/lvm2		-lvm1 -readline -thin static-libs
+sys-fs/lvm2		-lvm1 -readline -thin
 sys-fs/udev		hwdb static-libs
 sys-libs/e2fsprogs-libs	static-libs
 sys-libs/pam            -audit
