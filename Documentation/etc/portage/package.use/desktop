@@ -1,0 +1,16 @@
+app-text/ghostscript-gpl	cups
+app-text/poppler		tiff
+dev-java/swt			cairo
+dev-python/PyQt4		dbus
+media-libs/gd			fontconfig
+media-libs/libcanberra		alsa
+media-plugins/alsa-plugins	pulseaudio
+media-sound/pulseaudio		gnome
+net-dns/avahi			dbus
+net-irc/kvirc			dcc_video
+net-print/cups-filters		peg png tiff
+net-print/cups			X dbus zeroconf
+net-print/foomatic-filters	cups dbus
+net-print/hplip			hpcups hpijs static-ppds X libnotify
+virtual/udev			hwdb
+x11-libs/gtk+			X

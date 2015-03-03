@@ -10,14 +10,9 @@ media-fonts/takao-fonts
 media-libs/freetype
 media-libs/mesa
 media-libs/openjpeg
-net-im/jitsi
-net-im/skype
-net-libs/nodejs
-net-misc/youtube-dl
 net-print/cups
 net-print/cups-filters
 net-print/hplip
-www-plugins/adobe-flash
 x11-base/xorg-drivers
 x11-base/xorg-server
 x11-drivers/xf86-input-evdev
