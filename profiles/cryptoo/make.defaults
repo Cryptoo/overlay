@@ -1,4 +1,4 @@
-USE="gpm ipv6 usb -bindist -kmod -upnp -xattr"
+USE="gpm ipv6 usb -bindist -consolekit -kmod -upnp -xattr"
 
 MAKEOPTS="-j2 -l1.6"
 FEATURES="-distcc -xattr"
