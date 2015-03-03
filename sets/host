@@ -13,8 +13,8 @@ sys-apps/gptfdisk
 sys-auth/pam_ssh
 sys-boot/grub
 sys-fs/cryptsetup
+sys-fs/udev-init-scripts
 sys-fs/mdadm
 sys-kernel/dracut
 sys-kernel/linux-firmware
 sys-process/iotop
-

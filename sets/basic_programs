@@ -17,11 +17,9 @@ sys-apps/mlocate
 sys-apps/rng-tools
 sys-auth/nss-mdns
 sys-fs/btrfs-progs
-sys-fs/udev-init-scripts
 sys-libs/gpm
 sys-power/acpid
 sys-process/latencytop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/lynx
-
