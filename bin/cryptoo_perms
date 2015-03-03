@@ -2,15 +2,13 @@
 
 # This script set the correct permissions and xattrs on /usr/cryptoo
 
-/bin/chmod -R ugo+rX /usr/cryptoo
-/bin/chmod -R go-w /usr/cryptoo
-/bin/chmod -R u+w /usr/cryptoo
+/usr/bin/find /usr/cryptoo -type d -exec /bin/chmod 0775 {} +
+/usr/bin/find /usr/cryptoo -type f -exec /bin/chmod 0664 {} +
 
 /bin/chown -R portage:portage /usr/cryptoo
 
-/usr/bin/find /usr/cryptoo -type d -exec /bin/setfattr -n user.virtfs.mode -v 0s7YEAAA== {} +
+/usr/bin/find /usr/cryptoo -type d -exec /bin/setfattr -n user.virtfs.mode -v 0xed410000 {} +
+/usr/bin/find /usr/cryptoo -type f -exec /bin/setfattr -n user.virtfs.mode -v 0xb4810000 {} +
 
-/usr/bin/find /usr/cryptoo -type f -exec /bin/setfattr -n user.virtfs.mode -v 0spIEAAA== {} +
-
-/usr/bin/find /usr/cryptoo -type f -or -type d -exec /bin/setfattr -n user.virtfs.uid -v 0s+gAAAA== {} +
-/usr/bin/find /usr/cryptoo -type f -or -type d -exec /bin/setfattr -n user.virtfs.gid -v 0s+gAAAA== {} +
+/usr/bin/find /usr/cryptoo -type f -or -type d -exec /bin/setfattr -n user.virtfs.uid -v 0xfa000000 {} +
+/usr/bin/find /usr/cryptoo -type f -or -type d -exec /bin/setfattr -n user.virtfs.gid -v 0xfa000000 {} +
