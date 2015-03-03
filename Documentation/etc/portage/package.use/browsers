@@ -1,6 +1,6 @@
 dev-db/sqlite		secure-delete
 dev-libs/libxml2	icu
-mail-client/thunderbird	system-sqlite
+media-libs/harfbuzz	icu -introspection
 media-libs/libpng	apng
 media-libs/mesa		gles2
 sys-libs/zlib		minizip
