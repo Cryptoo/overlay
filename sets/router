@@ -1,8 +1,0 @@
-net-dialup/ppp
-net-dialup/rp-pppoe
-net-dns/noip-updater
-net-misc/aiccu
-net-misc/dhcp
-net-misc/dhcpcd
-net-misc/ipv6calc
-net-misc/radvd
