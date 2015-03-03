@@ -11,7 +11,7 @@ dev-vcs/git
 net-firewall/ipset
 net-firewall/shorewall
 net-firewall/shorewall6
-net-fs/nfs-utils
+#net-fs/nfs-utils
 net-misc/cfengine
 net-misc/dhcpcd
 sys-apps/iproute2
