@@ -1,0 +1,12 @@
+app-text/poppler
+net-im/pidgin
+net-irc/kvirc
+net-libs/libotr
+x11-plugins/pidgin-bot-sentry
+x11-plugins/pidgin-encryption
+x11-plugins/pidgin-facebookchat
+x11-plugins/pidgin-gpg
+x11-plugins/pidgin-libnotify
+x11-plugins/pidgin-otr
+x11-plugins/pidgin-privacy-please
+x11-plugins/pidgin-xmpp-receipts
