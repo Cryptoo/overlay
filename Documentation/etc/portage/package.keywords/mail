@@ -1,5 +1,0 @@
-mail-filter/procmail
-mail-mta/postfix
-net-im/bitmessage **
-net-mail/dovecot
-net-mail/fetchmail

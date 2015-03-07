@@ -1,5 +1,0 @@
-app-text/ghostscript-gpl	cups
-dev-java/icedtea-bin		-X -alsa -cups
-dev-libs/poco			sqlite
-net-p2p/fms			frost
-net-print/cups			-* X
