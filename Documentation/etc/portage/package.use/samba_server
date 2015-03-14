@@ -1,1 +1,5 @@
-net-fs/samba	avahi -client fam server -smbclient smbsharemodes syslog -winbind
+app-crypt/heimdal	-ssl
+net-fs/samba		avahi -client fam server -smbclient smbsharemodes syslog -winbind
+sys-libs/ntdb		python
+sys-libs/tevent		python
+sys-libs/tdb		python
