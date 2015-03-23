@@ -1,3 +1,8 @@
+app-crypt/gcr		gtk
 app-crypt/pinentry	qt4 gtk
+dev-libs/libdbusmenu	gtk
+dev-libs/libindicate	gtk
 kde-base/kdepim-runtime	facebook google
 mail-client/thunderbird	system-sqlite -gstreamer -jit -libnotify -lightning system-cairo system-icu system-jpeg
+mail-client/claws-mail	spell
+
