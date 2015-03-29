@@ -19,7 +19,7 @@ sys-apps/busybox		-systemd
 sys-apps/dbus			-systemd
 sys-apps/hwids			udev
 sys-apps/util-linux		-systemd static-libs udev
-sys-auth/pambase 		-systemd consolekit
+sys-auth/pambase		-systemd consolekit
 sys-auth/polkit			-systemd
 sys-fs/cryptsetup		-systemd udev
 sys-fs/lvm2			static-libs -systemd udev
@@ -31,5 +31,6 @@ virtual/libudev			-systemd static-libs
 virtual/libusb			udev
 virtual/udev			-systemd
 x11-base/xorg-server		-systemd udev
+x11-drivers/xf86-video-ati	udev
 x11-drivers/xf86-video-intel	udev
 x11-misc/slim			consolekit

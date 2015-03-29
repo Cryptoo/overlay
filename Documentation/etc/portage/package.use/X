@@ -39,13 +39,15 @@ media-fonts/font-winitzki-cyrillic	X
 media-fonts/font-xfree86-type1		X
 media-libs/freetype			X
 media-libs/imlib2			X
-media-libs/mesa				xa gbm
+media-libs/mesa				xa gbm gles2
 media-libs/tiff				jpeg
 net-print/hplip				hpijs static-ppds
 sys-apps/dbus				X
+x11-drivers/xf86-video-ati		glamor
 x11-drivers/xf86-video-intel		glamor uxa xvmc
 x11-drivers/xf86-video-qxl		xspice
 x11-libs/cairo				X
+x11-libs/glamor				gles xv
 x11-libs/libdrm				libkms
 x11-libs/libva-intel-driver		X
 x11-libs/libva				X
