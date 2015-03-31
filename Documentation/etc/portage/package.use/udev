@@ -21,7 +21,7 @@ sys-apps/hwids			udev
 sys-apps/util-linux		-systemd static-libs udev
 sys-auth/pambase		-systemd consolekit
 sys-auth/polkit			-systemd
-sys-fs/cryptsetup		-systemd udev
+sys-fs/cryptsetup		static-libs -systemd udev
 sys-fs/lvm2			static-libs -systemd udev
 sys-fs/udisks			-systemd
 sys-kernel/dracut		-systemd
