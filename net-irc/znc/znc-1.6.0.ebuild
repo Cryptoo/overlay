@@ -1,17 +1,17 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-irc/znc/znc-9999.ebuild,v 1.11 2014/11/28 13:47:58 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-irc/znc/znc-1.4-r1.ebuild,v 1.3 2015/03/25 16:48:24 jlec Exp $
 
 EAPI=5
 
 PYTHON_COMPAT=( python{3_2,3_3,3_4} )
-inherit base python-single-r1 user
+inherit base python-single-r1 systemd user
 
 MY_PV=${PV/_/-}
 DESCRIPTION="An advanced IRC Bouncer"
 
 if [[ ${PV} == *9999* ]]; then
-	inherit git-r3
+	inherit git-2
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://github.com/znc/znc.git"}
 	SRC_URI=""
 	KEYWORDS=""
@@ -31,8 +31,8 @@ RDEPEND="
 	perl? ( >=dev-lang/perl-5.10 )
 	python? ( ${PYTHON_DEPS} )
 	sasl? ( >=dev-libs/cyrus-sasl-2 )
-	ssl? ( >=dev-libs/openssl-0.9.7d )
-	tcl? ( dev-lang/tcl )
+	ssl? ( >=dev-libs/openssl-0.9.7d:0 )
+	tcl? ( dev-lang/tcl:0= )
 "
 DEPEND="
 	virtual/pkgconfig
@@ -48,7 +48,7 @@ DEPEND="
 S=${WORKDIR}/${PN}-${MY_PV}
 
 PATCHES=(
-	"${FILESDIR}/${PN}-1.5-system-wide-config.patch"
+	"${FILESDIR}/${PN}-1.6-systemwideconfig.patch"
 )
 
 CONFDIR="/var/lib/znc"
@@ -73,6 +73,7 @@ src_prepare() {
 
 src_configure() {
 	econf \
+		--with-systemdsystemunitdir=$(systemd_get_unitdir) \
 		$(use_enable debug) \
 		$(use_enable ipv6) \
 		$(use_enable perl) \
