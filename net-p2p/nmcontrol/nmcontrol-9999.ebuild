@@ -26,7 +26,7 @@ src_compile() { :; }
 
 src_install() {
 	# Install python modules
-	
+
 	cd ${S}
 	python_setup
 	cd ${S}/lib/DNS
@@ -40,10 +40,10 @@ src_install() {
 	python_domodule backendDataFile.py backendDataNamecoin.py common.py console.py daemonize.py platformDep.py plugin.py rpcClient.py
 	cd ${S}/plugin
 	python_moduleinto ${PN}/plugin
-	python_domodule pluginData.py pluginDns.py pluginGuiHttp.py pluginGuiHttpConfig.py pluginMain.py pluginNamespaceDomain.py pluginRpc.py
+	python_domodule pluginData.py pluginDns.py pluginHttp.py pluginMain.py pluginNamespaceDomain.py pluginRpc.py pluginSystray.py winsystray.py
 	cd ${S}/service
 	python_moduleinto ${PN}/service
-	python_domodule serviceDNS.py serviceHTTP.py
+	python_domodule serviceDNS.py
 	cd ${S}
 	python_moduleinto ${PN}
 	python_domodule nmcontrol.py
@@ -53,17 +53,18 @@ src_install() {
 		dodoc README.md
 	fi
 
-	# Create wrapper	
+	# Create wrapper
 	echo "#!/bin/bash" > "${T}/${PN}"
 	echo "cd $(python_get_sitedir)/${PN}" >> "${T}/${PN}"
 	echo "exec python2 $(python_get_sitedir)/${PN}/nmcontrol.py $@" >> "${T}/${PN}"
 	dobin "${T}/${PN}"
 
 	# nmcontrol is badly behaving because it wants to write access to its install directories. Try to make it a bit nicer.
-	
+
 	dodir /var/lib/namecoin/.config/nmcontrol/conf /var/lib/namecoin/.config/nmcontrol/data
 	chown -R namecoin:namecoin ${D}/var/lib/namecoin/
 	chmod -R 750 ${D}/var/lib/namecoin/
 	dosym /var/lib/namecoin/.config/nmcontrol/conf $(python_get_sitedir)/${PN}
 	dosym /var/lib/namecoin/.config/nmcontrol/data $(python_get_sitedir)/${PN}
 }
+
