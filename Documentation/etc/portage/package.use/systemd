@@ -6,4 +6,4 @@ sys-kernel/dracut       systemd
 virtual/libgudev        systemd
 virtual/libudev         systemd
 virtual/udev            systemd
-
+net-misc/openvpn	systemd
