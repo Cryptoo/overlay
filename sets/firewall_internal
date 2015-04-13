@@ -1,0 +1,4 @@
+@basic_programs
+@guest
+net-misc/dhcp
+
