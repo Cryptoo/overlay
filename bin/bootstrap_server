@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# This helper script turns a stage3 image into a desktop template image.
+# This helper script turns a stage3 image into a server template image.
 #
 # Prior to running this script:
 #
-# 1. Make sure cfengine created /var/image/desktop/x86_64/no-multilib
+# 1. Make sure cfengine created /var/image/server/x86_64/no-multilib
 # 2. Extract a stage3-amd64-nomultilib- image to the above directory
 # 3. 'mount -a' to make sure all bind mounts are active
 # 4. 'cf-agent -K' to have cfengine configure Portage in the image
@@ -12,7 +12,7 @@
 
 # Update @system, mostly to get recent versions of Portage and GCC
 
-/usr/cryptoo/bin/emerge_desktop -uD --reinstall changed-use @system &&
+/usr/cryptoo/bin/emerge_server -uD --reinstall changed-use @system &&
 
 
 # Allow cfengine to restore any configuration disturbed by the previous step
@@ -23,12 +23,12 @@
 
 # Remove udev to make room for systemd
 
-/usr/cryptoo/bin/emerge_desktop -C udev &&
+/usr/cryptoo/bin/emerge_server -C udev &&
 
 
 # Solve a circular dependency with dbus by installing a minimal systemd
 
-USE="-*" /usr/cryptoo/bin/emerge_desktop -1 --nodeps systemd &&
+USE="-*" /usr/cryptoo/bin/emerge_server -1 --nodeps systemd &&
 
 
 # Allow cfengine to note existance of systemd and adjust appropriately
@@ -38,15 +38,15 @@ USE="-*" /usr/cryptoo/bin/emerge_desktop -1 --nodeps systemd &&
 
 # Update @system with systemd enabled
 
-/usr/cryptoo/bin/emerge_desktop -uD --reinstall changed-use --with-bdeps=y @system
+/usr/cryptoo/bin/emerge_server -uD --reinstall changed-use --with-bdeps=y @system
 
 
-# Install the remaining packages in the @desktop_template set
+# Install the remaining packages in the @server_template set
 
-/usr/cryptoo/bin/emerge_desktop -e --usepkg=n @world
+/usr/cryptoo/bin/emerge_server -e --usepkg=n @world
 
 
 # In case any packages above failed due to unspecified circular dependencies,
 # try again.
 
-/usr/cryptoo/bin/emerge_desktop -uD --reinstall changed-use --with-bdeps=y @world
+/usr/cryptoo/bin/emerge_server -uD --reinstall changed-use --with-bdeps=y @world
