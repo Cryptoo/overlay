@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# This script set the correct permissions and xattrs on /usr/site-local/distfiles
+
+/usr/bin/find /usr/site-local/distfiles -type d -exec /bin/chmod 0775 {} +
+/usr/bin/find /usr/site-local/distfiles -type f -exec /bin/chmod 0664 {} +
+
+/bin/chown -R portage:qemu /usr/site-local/distfiles
+
+/usr/bin/find /usr/site-local/distfiles -type d -exec /bin/setfattr -n user.virtfs.mode -v 0xed410000 {} +
+/usr/bin/find /usr/site-local/distfiles -type f -exec /bin/setfattr -n user.virtfs.mode -v 0xb4810000 {} +
+
+/usr/bin/find /usr/site-local/distfiles -type f -or -type d -exec /bin/setfattr -n user.virtfs.uid -v 0xfa000000 {} +
+/usr/bin/find /usr/site-local/distfiles -type f -or -type d -exec /bin/setfattr -n user.virtfs.gid -v 0xfa000000 {} +
