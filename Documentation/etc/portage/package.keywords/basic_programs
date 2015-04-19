@@ -13,6 +13,7 @@ net-fs/nfs-utils
 net-libs/libnfsidmap
 net-libs/libtirpc
 net-misc/cfengine
+net-misc/dhcpcd
 net-misc/netifrc
 net-misc/ntp
 net-nds/rpcbind
