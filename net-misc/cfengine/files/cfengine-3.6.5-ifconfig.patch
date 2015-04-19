@@ -1,0 +1,12 @@
+diff -urN cfengine-3.6.5.orig/libenv/unix_iface.c cfengine-3.6.5/libenv/unix_iface.c
+--- cfengine-3.6.5.orig/libenv/unix_iface.c	2015-03-12 15:21:31.000000000 -0500
++++ cfengine-3.6.5/libenv/unix_iface.c	2015-04-19 07:51:12.406917042 -0500
+@@ -624,7 +624,7 @@
+         return;
+     }
+ #else
+-    if (!FileCanOpen("/sbin/ifconfig", "r") || ((pp = cf_popen("/sbin/ifconfig -a", "r", true)) == NULL))
++    if (!FileCanOpen("/bin/ifconfig", "r") || ((pp = cf_popen("/bin/ifconfig -a", "r", true)) == NULL))
+     {
+         Log(LOG_LEVEL_VERBOSE, "Could not find interface info");
+         return;
