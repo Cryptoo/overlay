@@ -4,7 +4,8 @@
 
 source /etc/portage/make.conf
 
+/usr/bin/dracut --force --no-compress /boot/dracut.initramfs.cpio
+
 /usr/cryptoo/bin/kmake_host ${MAKEOPTS} &&
 /usr/cryptoo/bin/kmake_host install &&
 /usr/sbin/grub2-mkconfig > /boot/grub/grub.cfg
-

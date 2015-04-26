@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Use this command to build the kernel for the host machine.
+
+source /etc/portage/make.conf
+
+/usr/cryptoo/bin/kmake_guest ${MAKEOPTS} &&
+cp /var/tmp/kernel/guest/x86_64/arch/x86/boot/bzImage /var/lib/libvirt/images/guest-kernel-x86_64
+
