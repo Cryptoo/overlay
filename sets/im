@@ -1,7 +1,6 @@
 @desktop_guest
 net-im/pidgin
 net-im/skype
-net-irc/kvirc
 x11-plugins/pidgin-bot-sentry
 x11-plugins/pidgin-encryption
 x11-plugins/pidgin-gpg
