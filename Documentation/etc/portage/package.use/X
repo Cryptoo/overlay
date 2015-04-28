@@ -43,6 +43,7 @@ media-libs/mesa				xa gbm gles2
 media-libs/tiff				jpeg
 net-print/hplip				hpijs static-ppds
 sys-apps/dbus				X
+x11-base/xorg-server			glamor
 x11-drivers/xf86-video-ati		glamor
 x11-drivers/xf86-video-intel		glamor uxa xvmc
 x11-drivers/xf86-video-qxl		xspice

@@ -1,3 +1,4 @@
+net-misc/openvpn	systemd
 sys-apps/dbus           systemd
 sys-auth/pambase        systemd
 sys-fs/cryptsetup	-static-libs systemd
@@ -6,4 +7,4 @@ sys-kernel/dracut       systemd
 virtual/libgudev        systemd
 virtual/libudev         systemd
 virtual/udev            systemd
-net-misc/openvpn	systemd
+x11-base/xorg-server	systemd
