@@ -1,2 +1,3 @@
 net-fs/samba
 sys-libs/ntdb
+sys-libs/talloc

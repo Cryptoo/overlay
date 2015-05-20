@@ -1,4 +1,5 @@
 net-dialup/ppp
+net-dialup/ppp-scripts
 net-dns/noip-updater
 net-dns/totd
 net-firewall/ip6tables
