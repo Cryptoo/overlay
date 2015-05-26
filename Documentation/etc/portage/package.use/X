@@ -38,6 +38,7 @@ media-fonts/font-sun-misc		X
 media-fonts/font-winitzki-cyrillic	X
 media-fonts/font-xfree86-type1		X
 media-libs/freetype			X
+media-libs/harfbuzz			icu -introspection
 media-libs/imlib2			X
 media-libs/mesa				xa gbm gles2
 media-libs/tiff				jpeg
