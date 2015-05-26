@@ -56,3 +56,4 @@ x11-libs/libXfont			truetype
 x11-misc/slim				branding
 x11-terms/xterm				truetype
 x11-wm/blackbox				truetype
+x11-wm/xpra				clipboard csc dec_av dec_av2 pulseaudio rencode sound vpx webp x264

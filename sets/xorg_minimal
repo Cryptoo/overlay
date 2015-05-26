@@ -2,3 +2,4 @@ x11-base/xorg-x11
 x11-misc/slim
 x11-terms/xterm
 x11-wm/fluxbox
+x11-wm/xpra

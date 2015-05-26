@@ -36,3 +36,4 @@ x11-proto/presentproto
 x11-proto/xcb-proto
 x11-proto/xextproto
 x11-proto/xproto
+x11-wm/xpra
