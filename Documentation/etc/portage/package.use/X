@@ -1,5 +1,5 @@
 app-arch/p7zip				rar wxwidgets
-dev-libs/libxml2			python
+dev-libs/libxml2			icu python
 media-fonts/dejavu			X
 media-fonts/font-adobe-100dpi		X
 media-fonts/font-adobe-75dpi		X
