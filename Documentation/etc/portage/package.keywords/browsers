@@ -4,7 +4,6 @@ dev-libs/nspr
 dev-libs/nss
 dev-libs/protobuf
 media-libs/libvpx
-media-libs/libwebp
 www-client/chromium
 www-client/firefox
 www-client/google-chrome

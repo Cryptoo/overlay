@@ -10,6 +10,7 @@ media-fonts/takao-fonts
 media-libs/freetype
 media-libs/mesa
 media-libs/openjpeg
+media-libs/libwebp
 net-print/cups
 net-print/cups-filters
 net-print/hplip
