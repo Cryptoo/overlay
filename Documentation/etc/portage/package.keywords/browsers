@@ -3,7 +3,6 @@ dev-lang/v8
 dev-libs/nspr
 dev-libs/nss
 dev-libs/protobuf
-media-libs/libvpx
 www-client/chromium
 www-client/firefox
 www-client/google-chrome

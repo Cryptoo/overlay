@@ -8,6 +8,7 @@ dev-util/gdbus-codegen
 gnome-base/gconf
 media-fonts/takao-fonts
 media-libs/freetype
+media-libs/libvpx
 media-libs/mesa
 media-libs/openjpeg
 media-libs/libwebp
