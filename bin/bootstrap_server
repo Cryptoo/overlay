@@ -4,7 +4,7 @@
 #
 # Prior to running this script:
 #
-# 1. Make sure cfengine created /var/image/server/x86_64/no-multilib
+# 1. Make sure cfengine created /var/image/server/x86_64/no_multilib
 # 2. Extract a stage3-amd64-nomultilib- image to the above directory
 # 3. 'mount -a' to make sure all bind mounts are active
 # 4. 'cf-agent -K' to have cfengine configure Portage in the image

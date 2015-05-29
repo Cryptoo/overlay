@@ -2,7 +2,7 @@
 
 # This helper script runs emerge in a chroot for the desktop template.
 
-IMAGEDIR=/var/image/desktop/x86_64/no-multilib
+IMAGEDIR=/var/image/desktop/x86_64/no_multilib
 
 /usr/bin/chroot "${IMAGEDIR}" /usr/bin/emerge "${@}"
 
