@@ -10,6 +10,7 @@ net-misc/ntp
 sys-apps/dcfldd
 sys-apps/ethtool
 sys-apps/gptfdisk
+sys-apps/hdparm
 sys-auth/pam_ssh
 sys-boot/grub
 sys-fs/cryptsetup
