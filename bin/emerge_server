@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This helper script runs emerge in a chroot for the desktop template.
+# This helper script runs emerge in a chroot for the desktop chroot.
 
 IMAGEDIR=/var/image/server/x86_64/no_multilib
 

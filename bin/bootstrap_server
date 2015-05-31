@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This helper script turns a stage3 image into a server template image.
+# This helper script turns a stage3 image into a server chroot image.
 #
 # Prior to running this script:
 #
@@ -41,7 +41,7 @@ USE="-*" /usr/cryptoo/bin/emerge_server -1 --nodeps systemd &&
 /usr/cryptoo/bin/emerge_server -uD --reinstall changed-use --with-bdeps=y @system
 
 
-# Install the remaining packages in the @server_template set
+# Install the remaining packages in the @server_chroot set
 
 /usr/cryptoo/bin/emerge_server -e --usepkg=n @world
 
