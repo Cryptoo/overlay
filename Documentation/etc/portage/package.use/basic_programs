@@ -19,6 +19,7 @@ net-misc/rsync		xattr
 sys-apps/busybox	mdev
 sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
+sys-apps/smartmontools	minimal
 sys-apps/systemd        -acl -audit -introspection -filecaps gudev -policykit -xattr
 sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit

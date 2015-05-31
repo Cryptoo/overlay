@@ -11,6 +11,7 @@ sys-apps/dcfldd
 sys-apps/ethtool
 sys-apps/gptfdisk
 sys-apps/hdparm
+sys-apps/smartmontools
 sys-auth/pam_ssh
 sys-boot/grub
 sys-fs/cryptsetup
