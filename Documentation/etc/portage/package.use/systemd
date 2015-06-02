@@ -1,11 +1,23 @@
-app-emulation/libvirt	systemd
-net-misc/openvpn	systemd
-sys-apps/dbus           systemd
-sys-auth/pambase        systemd
-sys-fs/cryptsetup	-static-libs systemd
-sys-fs/lvm2             systemd
-sys-kernel/dracut       systemd
-virtual/libgudev        systemd
-virtual/libudev         systemd
-virtual/udev            systemd
-x11-base/xorg-server	systemd
+app-emulation/libvirt		systemd
+net-misc/openvpn		systemd
+sys-apps/dbus           	systemd
+sys-auth/pambase        	systemd
+sys-fs/cryptsetup		-static-libs systemd
+sys-fs/lvm2             	systemd
+sys-kernel/dracut       	systemd
+virtual/libgudev        	systemd
+virtual/libudev         	systemd
+virtual/udev            	systemd
+x11-base/xorg-server		systemd
+sys-apps/busybox		systemd
+sys-apps/util-linux		systemd
+dev-qt/qtcore			systemd
+sys-process/procps		systemd
+net-print/cups			systemd
+net-wireless/bluez		systemd
+media-sound/pulseaudio		systemd
+sys-auth/polkit			systemd
+sys-fs/udisks			systemd
+sys-apps/accountsservice	systemd
+kde-base/kdm			systemd
+
