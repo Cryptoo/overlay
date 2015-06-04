@@ -1,2 +1,2 @@
-x11-wm/xpra	client opengl -server
-
+x11-wm/xpra		client opengl -server
+app-emulation/qemu      spice

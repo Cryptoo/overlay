@@ -1,6 +1,6 @@
 app-emulation/libvirt		python sasl lvm qemu -virt-network pcap netcf -macvtap -vepa python_single_target_python2_7
 app-emulation/libvirt-glib	python
-app-emulation/qemu		-jpeg -opengl -pulseaudio python sasl -spice usbredir vde virtfs -vnc xattr
+app-emulation/qemu		-jpeg -opengl -pulseaudio python sasl usbredir vde virtfs -vnc xattr
 app-emulation/virt-manager	gtk sasl
 net-libs/gtk-vnc		python sasl
 net-misc/spice-gtk		gtk3 -gstreamer python sasl usbredir
