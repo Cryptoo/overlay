@@ -1,6 +1,7 @@
 app-emulation/spice-vdagent
 app-portage/eix
 dev-libs/glib
+dev-libs/libgcrypt
 dev-libs/libtasn1
 dev-libs/openssl	**
 dev-python/pypax
