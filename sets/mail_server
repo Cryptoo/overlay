@@ -1,3 +1,4 @@
+@guest
 mail-filter/procmail
 mail-filter/spamassassin
 mail-mta/postfix
