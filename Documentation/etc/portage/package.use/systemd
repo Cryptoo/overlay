@@ -1,4 +1,4 @@
-app-emulation/libvirt		systemd
+app-emulation/libvirt		systemd -udev
 net-misc/openvpn		systemd
 sys-apps/dbus           	systemd
 sys-auth/pambase        	systemd
