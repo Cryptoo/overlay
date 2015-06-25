@@ -1,1 +1,1 @@
-net-misc/tor	-nat-pmp -systemd threads tor-hardening transparent-proxy
+net-misc/tor	-nat-pmp seccomp stats threads tor-hardening transparent-proxy -web

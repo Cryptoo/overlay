@@ -20,4 +20,4 @@ sys-auth/polkit			systemd
 sys-fs/udisks			systemd
 sys-apps/accountsservice	systemd
 kde-base/kdm			systemd
-
+net-misc/tor			systemd
