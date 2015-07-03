@@ -13,5 +13,4 @@
 @tor
 @vpn_client
 @vpn_server
-@znc
-
+@irc_bouncer
