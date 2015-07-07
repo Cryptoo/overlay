@@ -21,4 +21,3 @@ sys-power/acpid
 sys-process/latencytop
 sys-process/lsof
 sys-process/vixie-cron
-www-client/lynx
