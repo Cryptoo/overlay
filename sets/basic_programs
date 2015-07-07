@@ -17,7 +17,6 @@ sys-apps/mlocate
 sys-apps/rng-tools
 sys-auth/nss-mdns
 sys-fs/btrfs-progs
-sys-libs/gpm
 sys-power/acpid
 sys-process/latencytop
 sys-process/lsof

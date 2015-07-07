@@ -19,4 +19,5 @@ sys-fs/udev-init-scripts
 sys-fs/mdadm
 sys-kernel/dracut
 sys-kernel/linux-firmware
+sys-libs/gpm
 sys-process/iotop

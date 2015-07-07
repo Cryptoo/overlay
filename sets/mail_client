@@ -1,5 +1,4 @@
 @desktop_guest
-mail-client/claws-mail
 mail-client/thunderbird
 net-misc/keychain
 
