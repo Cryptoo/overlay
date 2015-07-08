@@ -18,6 +18,12 @@ media-fonts/unifont
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
 media-gfx/feh
-media-plugins/gst-plugins-lame
-media-plugins/gst-plugins-wavpack
+<media-plugins/gst-plugins-flac-1
+<media-plugins/gst-plugins-lame-1
+<media-plugins/gst-plugins-mad-1
+<media-plugins/gst-plugins-ogg-1
+<media-plugins/gst-plugins-opus-1
+<media-plugins/gst-plugins-pulse-1
+<media-plugins/gst-plugins-speex-1
+<media-plugins/gst-plugins-wavpack-1
 net-print/cups
