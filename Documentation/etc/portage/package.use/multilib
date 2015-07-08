@@ -1,4 +1,5 @@
 app-arch/bzip2			abi_x86_32
+app-arch/lz4			abi_x86_32
 dev-db/sqlite			abi_x86_32
 dev-lang/orc			abi_x86_32
 dev-libs/expat			abi_x86_32
@@ -43,6 +44,7 @@ net-libs/libasyncns		abi_x86_32
 net-print/cups			abi_x86_32
 sys-apps/attr			abi_x86_32
 sys-apps/dbus			abi_x86_32
+sys-apps/systemd		abi_x86_32
 sys-apps/tcp-wrappers		abi_x86_32
 sys-apps/util-linux		abi_x86_32
 sys-libs/gdbm			abi_x86_32
