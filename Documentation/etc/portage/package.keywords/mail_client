@@ -1,5 +1,5 @@
 dev-libs/libdbusmenu
 dev-libs/libindicate
-mail-client/claws-mail
+dev-libs/nss
 mail-client/thunderbird
 net-misc/keychain
