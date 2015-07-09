@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Use this command as an alias for "make" when configuring and building
+# the kernel for the host machine.
+
+export KTYPE="guest_smp"
+export KARCH="x86_64"
+
+cd /usr/src/linux
+exec make "$@"
