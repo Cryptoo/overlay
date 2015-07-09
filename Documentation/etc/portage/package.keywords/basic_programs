@@ -42,6 +42,7 @@ sys-fs/udev-init-scripts
 sys-kernel/dracut
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
+sys-libs/pam
 sys-process/procps
 sys-process/vixie-cron
 virtual/libgudev
