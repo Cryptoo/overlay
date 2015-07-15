@@ -8,6 +8,7 @@
 @firewall_external
 @firewall_internal
 @freenet
+@gitlab
 @i2p
 @irc_bouncer
 @mail_server
