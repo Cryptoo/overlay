@@ -19,7 +19,7 @@ LICENSE="GPL-3"
 SLOT="3"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="acl examples libvirt mysql postgres +qdbm selinux tokyocabinet vim-syntax xml"
+IUSE="acl debug examples libvirt mysql postgres +lmdb qdbm selinux tokyocabinet vim-syntax xml"
 
 DEPEND="acl? ( virtual/acl )
 	mysql? ( virtual/mysql )
@@ -27,6 +27,7 @@ DEPEND="acl? ( virtual/acl )
 	selinux? ( sys-libs/libselinux )
 	tokyocabinet? ( dev-db/tokyocabinet )
 	qdbm? ( dev-db/qdbm )
+	lmdb? ( dev-db/lmdb )
 	libvirt? ( app-emulation/libvirt )
 	xml? ( dev-libs/libxml2:2  ) \
 	dev-libs/openssl
@@ -34,10 +35,7 @@ DEPEND="acl? ( virtual/acl )
 RDEPEND="${DEPEND}"
 PDEPEND="vim-syntax? ( app-vim/cfengine-syntax )"
 
-REQUIRED_USE="qdbm? ( !tokyocabinet )
-	tokyocabinet? ( !qdbm )
-	!tokyocabinet? ( qdbm )
-	!qdbm? ( tokyocabinet )"
+REQUIRED_USE="^^ ( lmdb qdbm tokyocabinet )"
 
 S="${WORKDIR}/${MY_P}"
 
@@ -58,10 +56,12 @@ src_configure() {
 		$(use_with acl libacl) \
 		$(use_with qdbm) \
 		$(use_with tokyocabinet) \
+		$(use_with lmdb) \
 		$(use_with postgres postgresql) \
 		$(use_with mysql mysql check) \
 		$(use_with libvirt) \
 		$(use_enable selinux)
+		$(use_enable debug)
 
 	# Fix Makefile to skip inputs, see below "examples"
 	#sed -i -e 's/\(SUBDIRS.*\) inputs/\1/' Makefile || die
