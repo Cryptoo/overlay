@@ -2,7 +2,7 @@ app-emulation/libvirt		systemd -udev
 dev-qt/qtcore			systemd
 kde-base/kdm			systemd
 media-sound/pulseaudio		systemd
-net-misc/cfengine		systemd
+net-misc/cfengine		-systemd
 net-misc/openvpn		systemd
 net-misc/tor			systemd
 net-print/cups			systemd
