@@ -5,6 +5,7 @@ app-editors/nano	spell
 app-portage/layman	git bazaar cvs darcs mercurial subversion
 dev-java/icedtea-bin	-nsplugin
 dev-lang/python		sqlite
+dev-libs/beecrypt	threads
 dev-libs/glib		xattr
 dev-libs/libgcrypt	static-libs
 dev-libs/libgpg-error	static-libs
@@ -25,7 +26,7 @@ sys-apps/util-linux	static-libs
 sys-auth/consolekit	policykit
 sys-auth/pambase        mktemp
 sys-devel/gcc		mudflap fortran
-sys-fs/cryptsetup	gcrypt -kernel 
+sys-fs/cryptsetup	gcrypt -kernel
 sys-fs/lvm2		-lvm1 -readline -thin
 sys-fs/udev		hwdb static-libs
 sys-libs/e2fsprogs-libs	static-libs

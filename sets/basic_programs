@@ -7,6 +7,7 @@ app-portage/cpuinfo2cpuflags
 app-portage/eix
 app-portage/gentoolkit
 app-shells/dash
+dev-util/debugedit
 dev-vcs/git
 net-firewall/ipset
 net-firewall/shorewall
