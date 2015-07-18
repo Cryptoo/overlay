@@ -19,7 +19,7 @@ LICENSE="GPL-3"
 SLOT="3"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="acl debug examples libvirt mysql postgres +lmdb qdbm selinux tokyocabinet vim-syntax xml"
+IUSE="acl debug examples libvirt mysql postgres +lmdb pam qdbm selinux systemd tokyocabinet vim-syntax xml yaml"
 
 DEPEND="acl? ( virtual/acl )
 	mysql? ( virtual/mysql )
@@ -29,7 +29,8 @@ DEPEND="acl? ( virtual/acl )
 	qdbm? ( dev-db/qdbm )
 	lmdb? ( dev-db/lmdb )
 	libvirt? ( app-emulation/libvirt )
-	xml? ( dev-libs/libxml2:2  ) \
+	xml? ( dev-libs/libxml2:2 ) \
+	yaml? ( dev-libs/libyaml ) \
 	dev-libs/openssl
 	dev-libs/libpcre"
 RDEPEND="${DEPEND}"
@@ -57,12 +58,14 @@ src_configure() {
 		$(use_with qdbm) \
 		$(use_with tokyocabinet) \
 		$(use_with lmdb) \
+		$(use_with pam) \
 		$(use_with postgres postgresql) \
 		$(use_with mysql mysql check) \
 		$(use_with libvirt) \
+		$(use_with yaml libyaml) \
+		$(use_with systemd systemd-service) \
 		$(use_enable selinux)
 		$(use_enable debug)
-
 	# Fix Makefile to skip inputs, see below "examples"
 	#sed -i -e 's/\(SUBDIRS.*\) inputs/\1/' Makefile || die
 
