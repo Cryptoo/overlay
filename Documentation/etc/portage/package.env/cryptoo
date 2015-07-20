@@ -1,2 +1,1 @@
 net-fs/autofs				nosandbox.conf
-www-client/chromium			notmpfs.conf
