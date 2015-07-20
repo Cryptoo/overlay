@@ -1,7 +1,0 @@
-hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{R}%l%{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
-screen -t Top		0	top
-screen -t Iotop		1	iotop -o -d 0.1 -P -a
-screen -t Portage	2
-screen -t Work		3	
-screen -t Log		4	tail -n100 -F /var/log/everything/current
