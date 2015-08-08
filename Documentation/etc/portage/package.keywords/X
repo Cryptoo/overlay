@@ -4,6 +4,7 @@ dev-libs/gobject-introspection
 dev-libs/gobject-introspection-common
 dev-libs/icu
 dev-libs/libevdev
+dev-python/rencode
 dev-util/gdbus-codegen
 gnome-base/gconf
 media-fonts/takao-fonts
