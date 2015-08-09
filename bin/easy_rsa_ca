@@ -6,4 +6,4 @@ cd "${BASE}"
 
 source "${BASE}"/vars
 
-exec "${BASE}"/clean-all
+exec "${BASE}"/build-ca --batch
