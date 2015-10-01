@@ -1,2 +1,3 @@
 x11-wm/xpra		client opengl -server
 app-emulation/qemu      spice
+dev-vcs/git		gtk python tk
