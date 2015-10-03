@@ -1,4 +1,5 @@
 app-emulation/spice-vdagent
+app-misc/c_rehash
 app-portage/eix
 dev-libs/glib
 dev-libs/libgcrypt
