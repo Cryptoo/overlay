@@ -5,4 +5,4 @@
 source /etc/portage/make.conf
 
 /usr/cryptoo/bin/kmake_guest_multilib ${MAKEOPTS} &&
-cp /var/tmp/kernel/guest/x86_64/arch/x86/boot/bzImage /var/lib/libvirt/images/guest-kernel-x86_64-multilib
+cp /var/tmp/kernel/guest_multilib/x86_64/arch/x86/boot/bzImage /var/lib/libvirt/images/guest-kernel-x86_64-multilib
