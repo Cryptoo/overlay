@@ -1,5 +1,6 @@
 app-text/poppler
 net-im/pidgin
+net-im/skype4pidgin 
 net-irc/kvirc
 net-libs/libotr
 x11-plugins/pidgin-bot-sentry
