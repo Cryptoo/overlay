@@ -1,3 +1,5 @@
+<sys-apps/portage-9999 **
+app-admin/eselect
 app-emulation/spice-vdagent
 app-misc/c_rehash
 app-portage/eix
@@ -27,7 +29,6 @@ sys-apps/install-xattr
 sys-apps/keyutils
 sys-apps/kmod
 sys-apps/openrc
-<sys-apps/portage-9999 **
 sys-apps/systemd
 sys-apps/sysvinit
 sys-apps/util-linux
