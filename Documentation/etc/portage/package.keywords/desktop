@@ -3,4 +3,6 @@ net-im/skype
 net-print/cups
 net-print/cups-filters
 net-print/hplip
+sys-devel/binutils-config
+sys-libs/binutils-libs
 www-plugins/adobe-flash
