@@ -1,7 +1,6 @@
 app-admin/sudo
 app-crypt/gnupg
 app-editors/nano
-app-misc/screen
 app-misc/tmux
 app-portage/cpuinfo2cpuflags
 app-portage/eix
