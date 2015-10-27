@@ -1,4 +1,5 @@
 @host
 @kde_minimal
+@kde-plasma
 app-emulation/virt-manager
 app-emulation/virt-viewer
