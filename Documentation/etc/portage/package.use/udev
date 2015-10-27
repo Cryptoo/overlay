@@ -33,4 +33,5 @@ virtual/udev			-systemd
 x11-base/xorg-server		-systemd udev
 x11-drivers/xf86-video-ati	udev
 x11-drivers/xf86-video-intel	udev
+x11-misc/sddm			consolekit -systemd
 x11-misc/slim			consolekit

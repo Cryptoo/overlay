@@ -22,3 +22,4 @@ virtual/libgudev        	systemd
 virtual/libudev         	systemd
 virtual/udev            	systemd
 x11-base/xorg-server		systemd
+x11-misc/sddm			systemd
