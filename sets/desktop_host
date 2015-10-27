@@ -4,3 +4,5 @@
 @kde-applications
 app-emulation/virt-manager
 app-emulation/virt-viewer
+kde-base/kdm
+
