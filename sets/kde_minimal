@@ -1,3 +1,4 @@
 @desktop
-kde-base/kde-meta
+@kde-frameworks
+#kde-base/kde-meta
 kde-apps/okteta
