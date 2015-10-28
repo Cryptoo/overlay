@@ -1,7 +1,9 @@
 app-crypt/gcr		gtk
 app-crypt/pinentry	qt4 gtk
+app-crypt/qca       	gpg -openssl
+app-office/akonadi-server	sqlite -mysql
 dev-libs/libdbusmenu	gtk3
 dev-libs/libindicate	gtk
 kde-base/kdepim-runtime	facebook google
-mail-client/thunderbird	system-sqlite -gstreamer -jit -libnotify -lightning system-cairo system-icu system-jpeg
 mail-client/claws-mail	spell
+mail-client/thunderbird	system-sqlite -gstreamer -jit -libnotify -lightning system-cairo system-icu system-jpeg

@@ -1,5 +1,7 @@
 dev-libs/libdbusmenu
+dev-libs/libgudev
 dev-libs/libindicate
 dev-libs/nss
+kde-apps/kgpg
 mail-client/thunderbird
 net-misc/keychain

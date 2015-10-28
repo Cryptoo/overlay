@@ -1,4 +1,4 @@
 @desktop_guest
+kde-apps/kgpg
 mail-client/thunderbird
 net-misc/keychain
-

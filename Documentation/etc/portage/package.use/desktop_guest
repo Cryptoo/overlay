@@ -1,2 +1,17 @@
+dev-libs/libxml2    	icu
+dev-qt/qtcore   	qt3support
+dev-qt/qtdeclarative	qt3support
+dev-qt/qtgui		qt3support
+dev-qt/qtgui    	qt3support
+dev-qt/qtopengl		qt3support
+dev-qt/qtsql		qt3support
+dev-qt/qtsql    	qt3support
+dev-qt/qtwebkit 	icu
+kde-apps/kdesu		-handbook
+kde-apps/kgpg		-handbook
+kde-base/katepart	-handbook
+kde-base/kdelibs	-handbook -policykit -udev -udisks -upower -zeroconf
+kde-base/kdepimlibs	-handbook
+net-dns/avahi       	mdnsresponder-compat
 x11-base/xorg-server	xvfb
 x11-wm/xpra		-client server
