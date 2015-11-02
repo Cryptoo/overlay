@@ -1,0 +1,9 @@
+#!/bin/bash
+
+BASE="/usr/share/easy-rsa"
+
+cd "${BASE}"
+
+source "${BASE}"/vars
+
+exec "${BASE}"/build-key --batch "${1}"
