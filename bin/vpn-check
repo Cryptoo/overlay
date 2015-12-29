@@ -1,0 +1,5 @@
+#!/bin/bash
+if [[ "$(ping -c 3 8.8.8.8 | grep '100% packet loss' )" != "" ]]; then
+    /usr/bin/systemctl restart openvpn-client@${1}
+fi
+
