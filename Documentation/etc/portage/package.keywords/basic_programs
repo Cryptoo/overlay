@@ -9,6 +9,7 @@ dev-libs/libgcrypt
 dev-libs/libtasn1
 dev-libs/openssl	**
 dev-python/pypax
+dev-util/gdbus-codegen
 dev-vcs/git
 net-firewall/arptables
 net-firewall/ipset
