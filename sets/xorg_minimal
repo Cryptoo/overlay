@@ -1,5 +1,2 @@
-#bug - missing dependency for recode:
-dev-python/cython
-
 x11-base/xorg-x11
-x11-wm/xpra
+@xpra
