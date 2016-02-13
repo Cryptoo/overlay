@@ -8,9 +8,9 @@ dev-qt/qtsql		qt3support
 dev-qt/qtsql    	qt3support
 dev-qt/qtwebkit 	icu
 kde-apps/kgpg		-handbook
+kde-apps/kdepimlibs	-handbook
 kde-base/katepart	-handbook
 kde-base/kdelibs	-policykit -udev -udisks -upower -zeroconf
-kde-base/kdepimlibs	-handbook
 net-dns/avahi       	mdnsresponder-compat
 x11-base/xorg-server	xvfb
 x11-wm/xpra		-client server
