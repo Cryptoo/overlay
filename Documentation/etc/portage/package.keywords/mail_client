@@ -3,5 +3,6 @@ dev-libs/libgudev
 dev-libs/libindicate
 dev-libs/nss
 kde-apps/kgpg
+mail-client/mutt
 mail-client/thunderbird
 net-misc/keychain

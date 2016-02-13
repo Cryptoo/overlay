@@ -6,4 +6,5 @@ dev-libs/libdbusmenu	gtk3
 dev-libs/libindicate	gtk
 kde-base/kdepim-runtime	facebook google
 mail-client/claws-mail	spell
+mail-client/mutt	crypt gpg imap nntp sidebar smime smtp ssl
 mail-client/thunderbird	system-sqlite -gstreamer -jit -libnotify -lightning system-cairo system-icu system-jpeg
