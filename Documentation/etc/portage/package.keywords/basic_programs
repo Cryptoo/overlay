@@ -38,6 +38,7 @@ sys-auth/pambase
 sys-boot/grub
 sys-devel/crossdev
 sys-devel/gcc
+sys-devel/gettext
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/mdadm
