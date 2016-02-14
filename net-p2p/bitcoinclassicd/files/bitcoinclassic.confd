@@ -1,0 +1,12 @@
+# Config file for /etc/init.d/bitcoinclassic
+
+# owner of bitcoinclassicd process (don't change, must be existing)
+BITCOINCLASSIC_USER="bitcoinclassic"
+BITCOINCLASSIC_CONF="/var/lib/bitcoinclassic/.bitcoinclassic/bitcoinclassic.conf"
+BITCOINCLASSIC_DATA="/var/lib/bitcoinclassic/.bitcoinclassic"
+
+# See http://www.bitcoin.org/smf/index.php?topic=1063
+BITCOINCLASSIC_OPTS="-conf=${BITCOINCLASSIC_CONF} -datadir=${BITCOINCLASSIC_DATA} ${BITCOINCLASSIC_OPTS}"
+
+# nice level
+NICELEVEL="19"
