@@ -39,9 +39,9 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 
 pkg_setup() {
-	local UG='bitcoinclassic'
+	local UG='bitcoin'
 	enewgroup "${UG}"
-	enewuser "${UG}" -1 -1 /var/lib/bitcoinclassic "${UG}"
+	enewuser "${UG}" -1 -1 /var/lib/bitcoin "${UG}"
 }
 
 src_prepare() {
@@ -85,14 +85,13 @@ src_compile() {
 
 	cd src || die
 	emake CXX="$(tc-getCXX)" "${OPTS[@]}" bitcoind
-	mv bitcoind ${PN}
 }
 
 src_install() {
-	local my_topdir="/var/lib/bitcoinclassic"
+	local my_topdir="/var/lib/bitcoin"
 	local my_data="${my_topdir}/.bitcoin"
 
-	dobin src/${PN}
+	dobin src/bitcoind
 
 	insinto "${my_data}"
 	if [ -f "${ROOT}${my_data}/bitcoin.conf" ]; then
@@ -100,7 +99,7 @@ src_install() {
 	else
 		doins "${FILESDIR}/bitcoin.conf"
 		elog "default ${EROOT}${my_data}/bitcoin.conf installed - you will need to edit it"
-		fowners bitcoinclassic:bitcoinclassic "${my_data}/bitcoin.conf"
+		fowners bitcoin:bitcoin "${my_data}/bitcoin.conf"
 		fperms 400 "${my_data}/bitcoin.conf"
 	fi
 
@@ -110,8 +109,8 @@ src_install() {
 
 	keepdir "${my_data}"
 	fperms 700 "${my_topdir}"
-	fowners bitcoinclassic:bitcoinclassic "${my_topdir}"
-	fowners bitcoinclassic:bitcoinclassic "${my_data}"
+	fowners bitcoin:bitcoin "${my_topdir}"
+	fowners bitcoin:bitcoin "${my_data}"
 
 	if use doc; then
 		dodoc README.md

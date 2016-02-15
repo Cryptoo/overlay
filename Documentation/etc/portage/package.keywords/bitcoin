@@ -1,20 +1,23 @@
+<dev-libs/libsecp256k1-9999 **
+<net-p2p/armory-9999 **
+<net-p2p/bitcoind-9999 **
+app-admin/logrotate
 app-arch/snappy
 dev-libs/boost
 dev-libs/crypto++
 dev-libs/leveldb
-<dev-libs/libsecp256k1-9999 **
 dev-libs/libsodium
 dev-libs/msgpack
 dev-python/pygtksourceview
 dev-util/boost-build
 dev-vcs/git
+media-gfx/qrencode
 net-libs/cppzmq
 net-libs/czmq
 net-libs/zmqpp
-<net-p2p/armory-9999 **
 net-p2p/bitcoin-cli
-net-p2p/bitcoind
-<net-p2p/bitcoind-9999 **
 net-p2p/bitcoin-qt
+net-p2p/bitcoinclassicd
+net-p2p/bitcoind
 net-p2p/libbitcoin **
 net-p2p/obelisk **

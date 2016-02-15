@@ -17,13 +17,13 @@
 # /etc/bitcoinclassic/bitcoinclassic.conf
 
 [Unit]
-Description=BitcoinCLASSIC Daemon
+Description=Bitcoin Classic Daemon
 After=network.target
 
 [Service]
-User=bitcoinclassic
+User=bitcoin
 Environment=BITCOINCLASSIC_OPTS=
-ExecStart=/usr/bin/bitcoinclassicd -daemon=0 $BITCOINCLASSIC_OPTS
+ExecStart=/usr/bin/bitcoind -daemon=0 $BITCOINCLASSIC_OPTS
 ExecReload=/bin/kill -HUP $MAINPID
 
 [Install]
