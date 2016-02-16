@@ -1,4 +1,4 @@
 @guest
 net-p2p/btcd
-app-misc/btcwallet
+#app-misc/btcwallet
 
