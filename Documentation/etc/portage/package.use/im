@@ -1,4 +1,5 @@
+dev-libs/libxml2	-icu
+dev-qt/qtwebkit		-exceptions
 net-im/pidgin		gnutls idn gadu meanwhile mxit prediction sasl silc spell zephyr
 net-libs/farstream	msn
 net-libs/libgadu	gnutls
-dev-libs/libxml2	-icu
