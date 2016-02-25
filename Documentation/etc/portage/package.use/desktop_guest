@@ -12,5 +12,5 @@ kde-apps/kdepimlibs	-handbook
 kde-base/katepart	-handbook
 kde-base/kdelibs	-policykit -udev -udisks -upower -zeroconf
 net-dns/avahi       	mdnsresponder-compat
-x11-base/xorg-server	xvfb
+x11-base/xorg-server	xvfb -suid
 x11-wm/xpra		-client server
