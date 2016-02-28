@@ -5,6 +5,7 @@ dev-libs/gobject-introspection-common
 dev-libs/icu
 dev-libs/libevdev
 dev-python/pillow
+dev-python/python-lzo
 dev-python/rencode
 dev-util/gdbus-codegen
 gnome-base/gconf

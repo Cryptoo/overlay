@@ -58,4 +58,4 @@ x11-libs/libva-intel-driver		X
 x11-misc/slim				branding
 x11-terms/xterm				truetype
 x11-wm/blackbox				truetype
-x11-wm/xpra				clipboard csc dec_av dec_av2 pulseaudio rencode sound vpx webp x264 x265
+x11-wm/xpra				clipboard csc dec_av dec_av2 lz4 lzo pulseaudio rencode sound vpx webp x264 x265
