@@ -1,0 +1,8 @@
+#!/bin/sh
+emerge --quiet --update --deep --reinstall changed-use --with-bdeps=y --backtrack=30 $@ world > /dev/null 2>&1 &&
+emerge --quiet $@ @live-rebuild > /dev/null 2>&1 &&
+emerge --quiet $@ @preserved-rebuild > /dev/null 2>&1 &&
+emerge --quiet --depclean $@ > /dev/null 2>&1 &&
+etc-update --automode -5 > /dev/null 2>&1 &&
+echo "Portage update successful."
+
