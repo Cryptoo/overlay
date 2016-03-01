@@ -7,8 +7,8 @@ media-libs/libcanberra		alsa
 media-libs/libvpx	        postproc
 media-plugins/alsa-plugins	pulseaudio
 media-sound/pulseaudio		gnome
-media-video/ffmpeg		opus speex theora vorbis vpx wavpack webp x264 x265
-media-video/vlc 	        ogg vorbis
+media-video/ffmpeg		opus speex theora v4l vorbis vpx wavpack webp x264 x265
+media-video/vlc 	        ogg v4l vorbis
 net-dns/avahi			dbus
 net-irc/kvirc			dcc_video
 net-print/cups			X dbus zeroconf
