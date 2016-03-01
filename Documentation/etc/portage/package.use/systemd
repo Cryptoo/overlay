@@ -1,4 +1,4 @@
-app-emulation/libvirt		systemd -udev
+app-emulation/libvirt		systemd
 dev-qt/qtcore			systemd
 kde-base/kdm			systemd
 media-sound/pulseaudio		systemd
