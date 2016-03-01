@@ -15,6 +15,7 @@ net-misc/dhcpcd
 sys-apps/iproute2
 sys-apps/mlocate
 sys-apps/rng-tools
+sys-apps/usbutils
 sys-auth/nss-mdns
 sys-fs/btrfs-progs
 sys-power/acpid

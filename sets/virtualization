@@ -1,5 +1,4 @@
 app-emulation/libvirt
 net-firewall/iptables
 net-misc/bridge-utils
-sys-apps/usbutils
 sys-apps/usermode-utilities
