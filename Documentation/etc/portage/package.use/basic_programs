@@ -9,6 +9,7 @@ dev-libs/beecrypt	threads
 dev-libs/glib		xattr
 dev-libs/libgcrypt	static-libs
 dev-libs/libgpg-error	static-libs
+dev-libs/libpcre	pcre16
 dev-libs/openssl	rfc3779 -tls-heartbeat
 dev-libs/popt		static-libs
 dev-vcs/git		curl

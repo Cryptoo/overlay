@@ -1,5 +1,5 @@
 app-crypt/gcr		gtk
-app-crypt/pinentry	qt4 gtk
+app-crypt/pinentry	qt5 gtk
 app-crypt/qca       	gpg -openssl
 app-office/akonadi-server	sqlite -mysql
 dev-libs/libdbusmenu	gtk3

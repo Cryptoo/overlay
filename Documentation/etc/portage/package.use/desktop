@@ -2,13 +2,14 @@ app-text/ghostscript-gpl	cups
 app-text/poppler		tiff
 dev-java/swt			cairo
 dev-python/PyQt4		dbus
+dev-qt/qtmultimedia		widgets
 media-libs/gd			fontconfig
 media-libs/libcanberra		alsa
 media-libs/libvpx	        postproc
 media-plugins/alsa-plugins	pulseaudio
 media-sound/pulseaudio		gnome
 media-video/ffmpeg		opus speex theora v4l vorbis vpx wavpack webp x264 x265
-media-video/vlc 	        ogg v4l vorbis
+media-video/vlc 	        ogg -qt4 v4l vorbis
 net-dns/avahi			dbus
 net-irc/kvirc			dcc_video
 net-print/cups			X dbus zeroconf
@@ -17,3 +18,4 @@ net-print/foomatic-filters	cups dbus
 net-print/hplip			hpcups hpijs static-ppds X libnotify
 virtual/udev			hwdb
 x11-libs/gtk+			X
+x11-libs/libxcb			xkb
