@@ -1,1 +1,1 @@
-USE="alsa avahi cups dbus -java pulseaudio X zeroconf"
+USE="alsa avahi cups dbus -java pulseaudio qt5 X zeroconf"

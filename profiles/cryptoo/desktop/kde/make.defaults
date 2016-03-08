@@ -1,2 +1,2 @@
-USE="bluetooth flac gstreamer kde musicbrainz mp3 openal opengl plasma qt4 svg vorbis xinerama xvmc"
+USE="bluetooth flac gstreamer kde musicbrainz mp3 openal opengl plasma svg vorbis xinerama xvmc"
 
