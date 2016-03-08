@@ -1,5 +1,7 @@
 dev-python/pyopengl
 dev-python/pyopengl_accelerate
+media-libs/phonon
+media-libs/phonon-vlc
 net-im/jitsi
 net-im/skype
 net-print/cups
