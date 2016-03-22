@@ -1,2 +1,4 @@
+dev-libs/boost
+dev-util/boost-build
 net-libs/rb_libtorrent
 net-p2p/deluge **
