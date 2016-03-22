@@ -8,6 +8,7 @@ dev-libs/crypto++
 dev-libs/leveldb
 dev-libs/libsodium
 dev-libs/msgpack
+dev-libs/univalue
 dev-python/pygtksourceview
 dev-util/boost-build
 dev-vcs/git
