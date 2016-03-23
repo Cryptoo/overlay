@@ -6,6 +6,7 @@ app-arch/unrar
 app-portage/layman
 net-firewall/arptables
 net-firewall/ebtables
+net-fs/nfs-utils
 net-misc/keychain
 net-misc/ntp
 sys-apps/dcfldd
@@ -16,8 +17,8 @@ sys-apps/smartmontools
 sys-auth/pam_ssh
 sys-boot/grub
 sys-fs/cryptsetup
-sys-fs/udev-init-scripts
 sys-fs/mdadm
+sys-fs/udev-init-scripts
 sys-kernel/dracut
 sys-kernel/linux-firmware
 sys-libs/gpm

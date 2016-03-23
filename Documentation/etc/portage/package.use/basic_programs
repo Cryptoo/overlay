@@ -16,8 +16,10 @@ dev-vcs/git		curl
 net-dns/avahi		dbus
 net-firewall/ipset	-modules
 net-firewall/iptables	netlink
+net-fs/nfs-utils	-tcpd
 net-fs/nfs-utils	nfsdcld nfsidmap
 net-misc/rsync		xattr
+net-nds/rpcbind		-tcpd systemd
 sys-apps/busybox	mdev
 sys-apps/coreutils	xattr
 sys-apps/shadow		xattr
