@@ -1,5 +1,7 @@
 @guest
 net-mail/bmwrapper
 net-misc/socat
+net-p2p/bmagent
+net-p2p/bmd
 net-p2p/pybitmessage
 net-p2p/pybitmessage-daemon
