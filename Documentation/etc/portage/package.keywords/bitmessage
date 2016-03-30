@@ -1,5 +1,6 @@
 dev-go/go-protobuf
 dev-go/gogo-protobuf
+dev-libs/protobuf
 net-mail/bmwrapper		**
 net-p2p/bmagent			**
 net-p2p/bmd			**
