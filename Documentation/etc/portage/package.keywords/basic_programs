@@ -36,9 +36,11 @@ sys-apps/sysvinit
 sys-apps/util-linux
 sys-auth/pambase
 sys-boot/grub
+sys-devel/clang
 sys-devel/crossdev
 sys-devel/gcc
 sys-devel/gettext
+sys-devel/llvm
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/mdadm
