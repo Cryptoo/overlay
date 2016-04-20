@@ -1,6 +1,6 @@
 @desktop_guest
 kde-apps/kgpg
-kde-apps/konsole
-mail-client/mutt
+#kde-apps/konsole
+#mail-client/mutt
 mail-client/thunderbird
 net-misc/keychain
