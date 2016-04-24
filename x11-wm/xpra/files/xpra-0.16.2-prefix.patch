@@ -1,6 +1,6 @@
---- xpra-0.15.0/setup.py
-+++ xpra-0.15.0/setup.py
-@@ -1612,8 +1612,8 @@
+--- xpra-0.16.2/setup.py
++++ xpra-0.16.2/setup.py
+@@ -1723,8 +1723,8 @@
          #prepare default [/usr/local]/etc configuration files:
          if '--user' in sys.argv:
              etc_prefix = 'etc/xpra'
@@ -11,17 +11,17 @@
          else:
              etc_prefix = sys.prefix + '/etc/xpra'
  
---- xpra-0.15.0/xpra/platform/paths.py
-+++ xpra-0.15.0/xpra/platform/paths.py
-@@ -30,9 +30,9 @@
-         return env_conf_dir
+--- xpra-0.16.2/xpra/platform/paths.py
++++ xpra-0.16.2/xpra/platform/paths.py
+@@ -40,9 +40,9 @@
+ def do_get_system_conf_dirs():
      prefix = get_install_prefix()
      #the system wide configuration directory
 -    if prefix == '/usr':
-+    if sys.prefix[-4:] == '/usr':
++    if prefix[-4:] == '/usr':
          #default posix config location:
--        return '/etc/xpra'
-+        return sys.prefix[:-4] + '/etc/xpra'
+-        return ['/etc/xpra']
++        return [sys.prefix[:-4] + '/etc/xpra']
      #hope the prefix is something like "/usr/local" or "$HOME/.local":
-     return prefix + '/etc/xpra/'
+     return [prefix + '/etc/xpra/']
  
