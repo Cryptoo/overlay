@@ -17,5 +17,6 @@ net-print/cups-filters		peg png tiff
 net-print/foomatic-filters	cups dbus
 net-print/hplip			hpcups hpijs static-ppds X libnotify
 virtual/udev			hwdb
+x11-libs/cairo			xcb
 x11-libs/gtk+			X
 x11-libs/libxcb			xkb
