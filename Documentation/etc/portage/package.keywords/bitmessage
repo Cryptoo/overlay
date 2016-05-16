@@ -3,6 +3,6 @@ dev-go/gogo-protobuf
 dev-libs/protobuf
 net-mail/bmwrapper		**
 net-p2p/bmagent			**
-net-p2p/bmd			**
+<net-p2p/bmd-9999		**
 net-p2p/pybitmessage		**
 net-p2p/pybitmessage-daemon	**
