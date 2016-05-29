@@ -1,5 +1,4 @@
 dev-db/sqlite		secure-delete
-media-libs/libpng	apng
 media-libs/mesa		gles2
 sys-libs/zlib		minizip
 www-client/chromium	-hotwording
