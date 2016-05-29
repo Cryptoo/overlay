@@ -1,7 +1,6 @@
 app-accessibility/speech-dispatcher
 dev-lang/v8
 dev-libs/protobuf
-media-libs/libpng
 www-client/chromium
 www-client/firefox
 www-client/google-chrome

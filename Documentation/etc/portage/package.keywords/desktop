@@ -2,6 +2,7 @@ dev-libs/nspr
 dev-libs/nss
 dev-python/pyopengl
 dev-python/pyopengl_accelerate
+media-libs/libpng
 media-libs/phonon
 media-libs/phonon-vlc
 net-im/jitsi
