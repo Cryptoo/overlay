@@ -1,5 +1,7 @@
 dev-java/icedtea
 dev-java/icedtea-bin
 dev-java/jrobin
+dev-libs/boost
+dev-util/boost-build
 net-misc/i2pd
 net-p2p/i2p **
