@@ -1,4 +1,5 @@
 @guest
 dev-java/oracle-jdk-bin
 net-dns/unbound
+net-misc/i2pd
 net-proxy/privoxy

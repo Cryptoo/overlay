@@ -1,5 +1,5 @@
-net-p2p/i2p **
-dev-java/jrobin
 dev-java/icedtea
 dev-java/icedtea-bin
-
+dev-java/jrobin
+net-misc/i2pd
+net-p2p/i2p **
