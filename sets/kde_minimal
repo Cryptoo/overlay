@@ -1,3 +1,7 @@
 @desktop
-@kde-frameworks
+kde-apps/dolphin-plugins
+kde-apps/kdebase-meta
+kde-apps/kgpg
+kde-apps/konqueror
+kde-apps/nsplugins
 kde-apps/okteta

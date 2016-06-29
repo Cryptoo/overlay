@@ -1,6 +1,5 @@
 @host
 @kde_minimal
-@kde-plasma
-@kde-applications
 app-emulation/virt-manager
 app-emulation/virt-viewer
+kde-apps/kde-meta
