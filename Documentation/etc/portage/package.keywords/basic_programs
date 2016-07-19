@@ -3,6 +3,7 @@ app-admin/eselect
 app-arch/lz4
 app-emulation/spice-vdagent
 app-misc/c_rehash
+app-portage/cpuid2cpuflags
 app-portage/eix
 dev-libs/glib
 dev-libs/libgcrypt
