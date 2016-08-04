@@ -3,7 +3,6 @@
 app-admin/metalog
 app-arch/rar
 app-arch/unrar
-app-portage/layman
 net-firewall/arptables
 net-firewall/ebtables
 net-fs/nfs-utils
