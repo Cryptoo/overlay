@@ -1,4 +1,5 @@
 app-accessibility/speech-dispatcher
+app-arch/gzip
 dev-lang/v8
 dev-libs/protobuf
 www-client/chromium
