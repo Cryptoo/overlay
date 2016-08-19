@@ -8,4 +8,4 @@ source /etc/portage/make.conf
 
 /usr/cryptoo/bin/kmake_host ${MAKEOPTS} &&
 /usr/cryptoo/bin/kmake_host install &&
-/usr/sbin/grub2-mkconfig > /boot/grub/grub.cfg
+/usr/sbin/grub-mkconfig > /boot/grub/grub.cfg
