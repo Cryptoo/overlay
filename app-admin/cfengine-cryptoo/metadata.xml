@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>justusranvier@riseup.net</email>
+    <name>Justus Ranvier</name>
+  </maintainer>
+  <longdescription>
+    CFEngine policy files for Cryptoo
+  </longdescription>
+<use>
+  <flag name='client-only'>Installs policy files into /var/cfengine/inputs
+    instead of /var/cfengine/masterfiles.</flag>
+</use>
+</pkgmetadata>
