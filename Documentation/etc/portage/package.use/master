@@ -1,1 +1,3 @@
-app-emulation/qemu	-spice
+app-admin/cfengine-cryptoo	-client-only
+app-admin/cfengine-masterfiles	-client-only
+app-emulation/qemu		-spice

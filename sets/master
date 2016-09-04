@@ -1,4 +1,4 @@
 @host
+app-admin/cfengine-cryptoo
 app-crypt/easy-rsa
 app-portage/layman
-

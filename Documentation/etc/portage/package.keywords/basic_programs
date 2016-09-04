@@ -1,5 +1,7 @@
 <sys-apps/portage-9999 **
 app-admin/eselect
+app-admin/cfengine-cryptoo **
+app-admin/cfengine-masterfiles
 app-arch/lz4
 app-emulation/spice-vdagent
 app-misc/c_rehash
