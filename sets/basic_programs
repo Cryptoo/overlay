@@ -12,6 +12,7 @@ net-firewall/ipset
 net-firewall/shorewall
 net-misc/cfengine
 net-misc/dhcpcd
+net-p2p/cjdns
 sys-apps/iproute2
 sys-apps/mlocate
 sys-apps/rng-tools
