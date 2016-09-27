@@ -2,6 +2,7 @@ app-accessibility/speech-dispatcher
 app-arch/gzip
 dev-lang/v8
 dev-libs/protobuf
+dev-libs/re2
 www-client/chromium
 www-client/firefox
 www-client/google-chrome
