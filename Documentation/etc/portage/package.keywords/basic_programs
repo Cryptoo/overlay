@@ -1,7 +1,7 @@
 <sys-apps/portage-9999 **
-app-admin/eselect
 app-admin/cfengine-cryptoo **
 app-admin/cfengine-masterfiles
+app-admin/eselect
 app-arch/lz4
 app-emulation/spice-vdagent
 app-misc/c_rehash
@@ -12,6 +12,7 @@ dev-libs/libgcrypt
 dev-libs/libtasn1
 dev-libs/openssl	**
 dev-python/pypax
+dev-util/cmake
 dev-util/gdbus-codegen
 dev-vcs/git
 net-firewall/arptables
