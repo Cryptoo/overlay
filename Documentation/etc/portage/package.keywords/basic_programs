@@ -7,6 +7,7 @@ app-emulation/spice-vdagent
 app-misc/c_rehash
 app-portage/cpuid2cpuflags
 app-portage/eix
+app-shells/quoter
 dev-libs/glib
 dev-libs/libgcrypt
 dev-libs/libtasn1
