@@ -43,6 +43,7 @@ sys-apps/util-linux
 sys-auth/pambase
 sys-boot/grub
 sys-devel/clang
+sys-devel/clang-runtime
 sys-devel/crossdev
 sys-devel/gcc
 sys-devel/gettext
@@ -55,6 +56,7 @@ sys-fs/udev-init-scripts
 sys-kernel/dracut
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
+sys-libs/libomp
 sys-libs/pam
 sys-process/procps
 sys-process/vixie-cron
