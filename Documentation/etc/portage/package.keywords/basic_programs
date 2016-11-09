@@ -57,6 +57,7 @@ sys-kernel/dracut
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
 sys-libs/libomp
+sys-libs/libseccomp
 sys-libs/pam
 sys-process/procps
 sys-process/vixie-cron
