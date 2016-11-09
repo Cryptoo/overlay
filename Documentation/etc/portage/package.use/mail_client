@@ -1,9 +1,10 @@
 app-crypt/gcr		gtk
 app-crypt/pinentry	qt5 gtk
 app-crypt/qca       	gpg -openssl
-app-office/akonadi-server	sqlite -mysql
 dev-libs/libdbusmenu	gtk3
 dev-libs/libindicate	gtk
+dev-qt/qtsql		mysql
+kde-apps/akonadi	sqlite -mysql
 kde-base/kdepim-runtime	facebook google
 mail-client/claws-mail	spell
 mail-client/mutt	crypt gpg imap nntp sidebar smime smtp ssl
